@@ -1,0 +1,40 @@
+/*
+ ============================================================================
+ Name        : HW1.c
+ Author      : Gus Teran
+ Version     :
+ Copyright   : Your copyright notice
+ Description : A series of classes that emulates a graph of a house including
+ its layouts and rooms and a search capability.
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "tests.h"
+#include "production.h"
+#include "Teran.h"
+
+
+
+int main(int argc, char* argv[]) {
+//	if(tests())
+//	{
+//		puts("Tests Passed!");
+//		production(argc, argv);
+//	}
+//	else
+//	{
+//		 puts("Tests did not pass.");
+//	}
+	int nRow = 5;
+	int nCol = 5;
+	int board[nRow][nCol];
+	for(int i = 0; i<nRow; i++){
+		for(int j = 0; j<nCol; j++){
+			board[i][j] = 0;
+			printf("%d", board[i][j]);
+		}
+	}
+	return EXIT_SUCCESS;
+}

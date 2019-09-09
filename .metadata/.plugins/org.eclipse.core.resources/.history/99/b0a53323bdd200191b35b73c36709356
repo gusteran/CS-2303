@@ -1,0 +1,43 @@
+/*
+ * BoardState.c
+ *
+ *  Created on: Sep 9, 2019
+ *      Author: gustt
+ */
+
+#include "BoardState.h"
+
+
+Board vertical(Board board, int distance) {
+	int delta = (distance > 0) ? 1 : -1;
+	distance = (distance > 0) ? distance : -distance;
+//	distance--;
+	bool wait = true;
+	while (distance > 0) {
+		if (board.y  + delta >= 0 && board.y  + delta < ROWS && !wait) {
+			board.array[board.y][board.x] = '>';
+			board.y += delta;
+		}
+		wait = false;
+		distance--;
+	}
+	board.array[board.y][board.x] = (delta>0)?'>':'<';
+	return board;
+}
+
+Board horizontal(Board board, int distance) {
+	int delta = (distance > 0) ? 1 : -1;
+	distance = (distance > 0) ? distance : -distance;
+//	distance--;
+	bool wait = true;
+	while (distance > 0) {
+		if (board.x  + delta >= 0 && board.x + delta < COLS && !wait) {
+			board.array[board.y][board.x] = '-';
+			board.x += delta;
+		}
+		wait = false;
+		distance--;
+	}
+	board.array[board.y][board.x] = (delta>0)?'^':'_';
+	return board;
+}

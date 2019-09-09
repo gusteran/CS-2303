@@ -1,0 +1,25 @@
+/*
+ * House.c
+ *
+ *  Created on: Aug 27, 2019
+ *      Author: gustt
+ */
+
+#include "House.h"
+
+int getNumberOfRooms(House house){
+	int count = 0;
+//	Layout layouts[] = house.layouts;
+//	for(int i = 0; i < sizeof(layouts)/sizeof(Layout); i++){
+//		count += countRooms(house.layouts[i]);
+//	}
+	for(;house.layouts[count] != NULL;count++)
+	return count;
+}
+
+Room getNewRoom(House house){
+	return getFirstRoom(house.layouts[0]);
+}
+
+
+

@@ -1,0 +1,43 @@
+/*
+ * tests.c
+ *
+ *  Created on: Sep 4, 2019
+ *      Author: gustt
+ */
+
+#include "tests.h"
+
+bool tests() {
+	bool answer = true;
+	answer &= blankMatrixTest();
+	answer &= printArrayTest();
+	return answer;
+}
+
+bool blankMatrixTest() {
+	bool answer = true;
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	printf("%d %d %d %d \n", matrix.x, matrix.y, ROWS/2, COLS/2);
+	for (int row = 0; row < ROWS; row++) {
+		for (int col = 0; col < COLS; col++) {
+			answer &= (0 == matrix.array[row][col]);
+		}
+	}
+	answer &= (matrix.x == 0 && matrix.y == 0);
+	return answer;
+}
+
+bool printArrayTest() {
+//	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	printMatrix(makeBlankMatrix(ROWS, COLS));
+	fflush(stdin);
+	printf("Does the Board look Correct? (y or other letter): ");
+	fflush(stdout);
+	char a = getchar();
+	bool ans = false;
+	if (a == 'y') {
+		ans = true;
+	}
+	return ans;
+
+}

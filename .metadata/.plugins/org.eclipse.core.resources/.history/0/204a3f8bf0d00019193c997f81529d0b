@@ -1,0 +1,154 @@
+/*
+ * tests.c
+ *
+ *  Created on: Sep 4, 2019
+ *      Author: gustt
+ */
+
+#include "tests.h"
+
+bool tests() {
+	bool answer = true;
+	answer &= blankMatrixTest();
+//	answer &= printArrayTest();
+//	answer &= verticalTest1();
+//	answer &= verticalTest2();
+//	answer &= verticalTest3();
+//	answer &= horizontalTest1();
+//	answer &= horizontalTest2();
+//	answer &= horizontalTest3();
+return answer;
+}
+
+bool blankMatrixTest() {
+	bool answer = true;
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	for (int row = 0; row < ROWS; row++) {
+		for (int col = 0; col < COLS; col++) {
+			answer &= (0 == matrix.array[row][col]);
+		}
+	}
+	answer &= (matrix.x == ROWS/2 && matrix.y == COLS/2);
+	return answer;
+}
+
+bool printArrayTest() {
+//	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	printMatrix(makeBlankMatrix(ROWS, COLS));
+	fflush(stdin);
+	printf("Does the Board look Correct? (y or other letter): ");
+	fflush(stdout);
+	char a = getchar();
+	bool ans = false;
+	if (a == 'y') {
+		ans = true;
+	}
+	return ans;
+}
+
+bool verticalTest1() {
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	matrix = vertical(matrix, 3);
+	printMatrix(matrix);
+	fflush(stdin);
+	printf("Does the Board look Correct? (y or other letter): ");
+	fflush(stdout);
+	char a = getchar();
+	bool ans = false;
+	if (a == 'y') {
+		ans = true;
+	}
+	return ans;
+}
+
+bool verticalTest2() {
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	matrix = vertical(matrix, -10);
+	printMatrix(matrix);
+	fflush(stdin);
+	printf("Does the Board look Correct? (y or other letter): ");
+	fflush(stdout);
+	char a = getchar();
+	bool ans = false;
+	if (a == 'y') {
+		ans = true;
+	}
+	return ans;
+}
+
+bool verticalTest3() {
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+	matrix = vertical(matrix, 10);
+	printMatrix(matrix);
+	fflush(stdin);
+	printf("Does the Board look Correct? (y or other letter): ");
+	fflush(stdout);
+	char a = getchar();
+	bool ans = false;
+	if (a == 'y') {
+		ans = true;
+	}
+	return ans;
+}
+
+bool horizontalTest1(){
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+		matrix = horizontal(matrix, 3);
+		printMatrix(matrix);
+		fflush(stdin);
+		printf("Does the Board look Correct? (y or other letter): ");
+		fflush(stdout);
+		char a = getchar();
+		bool ans = false;
+		if (a == 'y') {
+			ans = true;
+		}
+		return ans;
+}
+
+bool horizontalTest2(){
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+		matrix = horizontal(matrix, -10);
+		printMatrix(matrix);
+		fflush(stdin);
+		printf("Does the Board look Correct? (y or other letter): ");
+		fflush(stdout);
+		char a = getchar();
+		bool ans = false;
+		if (a == 'y') {
+			ans = true;
+		}
+		return ans;
+}
+
+bool horizontalTest3(){
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+		matrix = horizontal(matrix, 10);
+		printMatrix(matrix);
+		fflush(stdin);
+		printf("Does the Board look Correct? (y or other letter): ");
+		fflush(stdout);
+		char a = getchar();
+		bool ans = false;
+		if (a == 'y') {
+			ans = true;
+		}
+		return ans;
+}
+
+bool horizontalTest3(){
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+		matrix = horizontal(matrix, 10);
+		matrix = vertical(matrix, 2);
+		matrix = horizontal(matrix, -3);
+		printMatrix(matrix);
+		fflush(stdin);
+		printf("Does the Board look Correct? (y or other letter): ");
+		fflush(stdout);
+		char a = getchar();
+		bool ans = false;
+		if (a == 'y') {
+			ans = true;
+		}
+		return ans;
+}

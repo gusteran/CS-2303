@@ -1,0 +1,24 @@
+/*
+ * Board.c
+ *
+ *  Created on: Sep 9, 2019
+ *      Author: gustt
+ */
+
+#include "Board.h"
+
+Matrix makeBlankMatrix() {
+	int board[ROWS][COLS];
+	int x;
+	int y;
+	Matrix matrix = { board, x, y };
+	matrix.x = COLS / 2;
+	matrix.y = ROWS / 2;
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLS; j++) {
+			matrix.array[i][j] = 0;
+		}
+	}
+	return matrix;
+}
+

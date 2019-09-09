@@ -1,0 +1,53 @@
+/*
+ * BoardState.c
+ *
+ *  Created on: Sep 9, 2019
+ *      Author: gustt
+ */
+
+#include "BoardState.h"
+
+//I used vertical and horizontal to cover up, down, left and right in
+// a more straightforward way
+
+Board vertical(Board board, int distance) {
+	int delta = (distance > 0) ? 1 : -1;
+	distance = (distance > 0) ? distance : -distance;
+//	distance--;
+	bool wait = true;
+	while (distance > 0) {
+		if(wait){
+			board.array[board.y][board.x] = (delta>0)?'v':'^';
+			board.y += delta;
+		}
+		else if (board.y  + delta >= 0 && board.y  + delta < ROWS) {
+			board.array[board.y][board.x] = '|';
+			board.y += delta;
+		}
+		wait = false;
+		distance--;
+	}
+//	board.array[board.y][board.x] = (delta>0)?'v':'^';
+	return board;
+}
+
+Board horizontal(Board board, int distance) {
+	int delta = (distance > 0) ? 1 : -1;
+	distance = (distance > 0) ? distance : -distance;
+//	distance--;
+	bool wait = true;
+	while (distance > 0) {
+		if(wait){
+			board.array[board.y][board.x] = (delta>0)?'>':'<';
+			board.x += delta;
+		}
+		else if(board.x  + delta >= 0 && board.x + delta < COLS) {
+			board.array[board.y][board.x] = '-';
+			board.x += delta;
+		}
+		wait = false;
+		distance--;
+	}
+//	board.array[board.y][board.x] = (delta>0)?'>':'<';
+	return board;
+}

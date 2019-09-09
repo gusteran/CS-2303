@@ -1,0 +1,4 @@
+#Wed Sep 04 12:31:00 EDT 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=Binaries

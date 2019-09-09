@@ -1,0 +1,34 @@
+/*
+ * production.h
+ *
+ *  Created on: Aug 27, 2019
+ *      Author: gustt
+ */
+
+#ifndef PRODUCTION_H_
+#define PRODUCTION_H_
+#include <stdio.h>
+#include <stdbool.h>
+
+#define nRow 10
+#define nCol 10
+
+typedef struct{
+	int x;
+	int y;
+} Location;
+
+typedef struct{
+	int array[nRow][nCol];
+	Location point;
+} Matrix;
+
+bool tests();
+
+Matrix makeBlankMatrix(int nRow, int nCol);
+
+void printArray(int *array, int nRow, int nCol);
+
+bool production(int argc, char* argv[]);
+
+#endif /* PRODUCTION_H_ */

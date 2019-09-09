@@ -1,0 +1,29 @@
+/*
+ * tests.c
+ *
+ *  Created on: Sep 4, 2019
+ *      Author: gustt
+ */
+
+#include "tests.h"
+
+bool tests(){
+	bool answer = true;
+	answer &= blankMatrixTest();
+	return answer;
+}
+
+bool blankMatrixTest() {
+	bool answer = true;
+	Matrix matrix = makeBlankMatrix(ROWS, COLS);
+//	int array[ROWS][COLS] = matrix.array;
+	for (int row = 0; row < ROWS; row++) {
+		for (int col = 0; col < COLS; col++) {
+			answer &= (0 == matrix.array[row][col]);
+			printf("%d", matrix.array[row][col]);
+		}
+		printf("\n");
+	}
+	answer &= (matrix.point.x ==0 && matrix.point.y == 0);
+	return answer;
+}

@@ -1,0 +1,50 @@
+/*
+ * production.c
+ *
+ *  Created on: Aug 27, 2019
+ *      Author: gustt
+ */
+
+#include "production.h"
+
+void printboard(Board board) {
+	for (int i = 0; i < COLS + 2; i++) {
+		printf("%s", EDGE);
+	}
+	printf("\n");
+	for (int row = 0; row < ROWS; row++) {
+		printf("%s", EDGE);
+		for (int col = 0; col < COLS; col++) {
+			if (row == board.marker.y && col == board.marker.x) {
+				printf("@");
+			} else {
+				printf("%c", board.array[row][col]);
+			}
+		}
+		printf("%s\n", EDGE);
+	}
+	for (int i = 0; i < COLS + 2; i++) {
+		printf("%s", EDGE);
+	}
+	printf("\n");
+}
+
+
+void loop(int count){
+	int iteration = 1;
+	srand(time(NULL));
+	Board board = makeBlankBoard();
+	for(;count>0; count--){
+		printf("Iteration: %d\t", iteration++);
+		if(rand()%10>5){
+			int direction = rand() % COLS - board.marker.x;
+			printf("Direction: %s %d\n", (direction>0)?"Right":"Left", (direction>0)?direction:-direction);
+			board = horizontal(board, direction);
+		} else {
+			int direction = rand() % ROWS - board.marker.y;
+			printf("Direction: %s %d\n", (direction>0)?"Down":"Up", (direction>0)?direction:-direction);
+			board = vertical(board, direction);
+		}
+		printboard(board);
+	}
+}

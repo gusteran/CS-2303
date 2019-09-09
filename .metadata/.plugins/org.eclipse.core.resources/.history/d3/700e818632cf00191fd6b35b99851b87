@@ -1,0 +1,14 @@
+/*
+ * tests.h
+ *
+ *  Created on: Sep 4, 2019
+ *      Author: gustt
+ */
+
+#ifndef TESTS_H_
+#define TESTS_H_
+
+class tests {
+};
+
+#endif /* TESTS_H_ */

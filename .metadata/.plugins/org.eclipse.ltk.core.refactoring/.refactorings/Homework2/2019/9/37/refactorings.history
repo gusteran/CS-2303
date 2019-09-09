@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Homework2/src/BoardState.cpp&apos; to &apos;BoardState.c&apos;" description="Rename resource &apos;BoardState.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BoardState.cpp" name="BoardState.c" stamp="1568004176876" updateReferences="true"/>
+</session>

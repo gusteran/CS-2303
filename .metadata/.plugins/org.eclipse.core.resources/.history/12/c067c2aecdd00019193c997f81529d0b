@@ -1,0 +1,18 @@
+/*
+ * tests.h
+ *
+ *  Created on: Sep 4, 2019
+ *      Author: gustt
+ */
+
+#ifndef TESTS_H_
+#define TESTS_H_
+#include "production.h"
+
+bool blankMatrixTest();
+
+bool printArrayTest();
+
+bool verticalTest1();
+
+#endif /* TESTS_H_ */

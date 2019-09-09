@@ -1,0 +1,14 @@
+/*
+ * Board.h
+ *
+ *  Created on: Sep 9, 2019
+ *      Author: gustt
+ */
+
+#ifndef BOARD_H_
+#define BOARD_H_
+
+class Board {
+};
+
+#endif /* BOARD_H_ */
