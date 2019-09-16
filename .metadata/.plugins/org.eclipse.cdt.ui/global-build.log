@@ -19801,3 +19801,4 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c"
        && house.layoutGraph[row * house.nLayouts + col] == 1) {
                                                         ^~
 gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
