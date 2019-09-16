@@ -1,1 +1,87 @@
-Info: Nothing to build for Homework1
+22:43:28 **** Incremental Build of configuration Debug for project Homework1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Room.o" "..\\src\\Room.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'getNumberOfRooms':
+..\src\House.c:12:42: warning: division 'sizeof (Layout * {aka struct <anonymous> *}) / sizeof (Layout {aka struct <anonymous>})' does not compute the number of array elements [-Wsizeof-pointer-div]
+  for(int i = 0; i < sizeof(house.layouts)/sizeof(Layout); i++){
+                                          ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+In file included from ..\src\Search.c:8:
+..\src\Search.h:10:19: warning: extra tokens at end of #include directive
+ #include "House.h", "Room.h"
+                   ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+In file included from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.c:8:
+..\src\Search.h:10:19: warning: extra tokens at end of #include directive
+ #include "House.h", "Room.h"
+                   ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+In file included from ..\src\production.h:12,
+                 from ..\src\production.c:8:
+..\src\Search.h:10:19: warning: extra tokens at end of #include directive
+ #include "House.h", "Room.h"
+                   ^
+..\src\production.c: In function 'production':
+..\src\production.c:39:14: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     rows_L = strtol(argv[i]);
+              ^~~~~~
+..\src\production.c:52:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     if (strlen(argv[i] > FILENAMELENGTHALLOWANCE)) {
+         ^~~~~~
+..\src\production.c:52:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\production.c:52:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\production.c:9:1:
++#include <string.h>
+ 
+..\src\production.c:52:9:
+     if (strlen(argv[i] > FILENAMELENGTHALLOWANCE)) {
+         ^~~~~~
+..\src\production.c:52:24: warning: comparison between pointer and integer
+     if (strlen(argv[i] > FILENAMELENGTHALLOWANCE)) {
+                        ^
+..\src\production.c:52:24: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [-Wint-conversion]
+     if (strlen(argv[i] > FILENAMELENGTHALLOWANCE)) {
+                ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\production.c:52:24: note: expected 'const char *' but argument is of type 'int'
+..\src\production.c:52:9: warning: null argument where non-null required (argument 1) [-Wnonnull]
+     if (strlen(argv[i] > FILENAMELENGTHALLOWANCE)) {
+         ^~~~~~
+..\src\production.c:55:6: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+      strcpy(filename, argv[i]);
+      ^~~~~~
+..\src\production.c:55:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\production.c:55:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+..\src\production.c:28:8: warning: variable 'pause' set but not used [-Wunused-but-set-variable]
+   bool pause = false;
+        ^~~~~
+..\src\production.c:27:8: warning: variable 'print' set but not used [-Wunused-but-set-variable]
+   bool print = false;
+        ^~~~~
+..\src\production.c:26:7: warning: variable 'gens' set but not used [-Wunused-but-set-variable]
+   int gens = 0;
+       ^~~~
+..\src\production.c:24:7: warning: variable 'cols' set but not used [-Wunused-but-set-variable]
+   int cols = 0;
+       ^~~~
+..\src\production.c:22:7: warning: variable 'rows' set but not used [-Wunused-but-set-variable]
+   int rows = 0;
+       ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'countRooms':
+..\src\Layout.c:11:30: warning: division 'sizeof (Room * {aka struct <anonymous> *}) / sizeof (Room {aka struct <anonymous>})' does not compute the number of array elements [-Wsizeof-pointer-div]
+  return sizeof(layout.rooms) / sizeof(Room);
+                              ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HW1.o" "..\\src\\HW1.c" 
+In file included from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\HW1.c:14:
+..\src\Search.h:10:19: warning: extra tokens at end of #include directive
+ #include "House.h", "Room.h"
+                   ^
+gcc -o Homework1.exe "src\\HW1.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+
+22:43:30 Build Finished. 0 errors, 19 warnings. (took 1s.914ms)
+

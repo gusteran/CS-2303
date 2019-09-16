@@ -11,7 +11,7 @@
 
 bool open(Room room);
 
-bool haveTreasure(Room room);
+bool numTreasure(Room room);
 
 int countRooms(Layout layout);
 

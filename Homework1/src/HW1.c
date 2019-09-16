@@ -21,7 +21,6 @@ int main(int argc, char* argv[]) {
 	if(tests())
 	{
 		puts("Tests Passed!");
-		moveIterations(5);
 //		production(argc, argv);
 	}
 	else

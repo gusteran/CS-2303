@@ -17,7 +17,7 @@ bool tests() {
 //	answer &= horizontalTest1();
 //	answer &= horizontalTest2();
 //	answer &= horizontalTest3();
-//	answer &= compoundTest();
+	answer &= compoundTest();
 return answer;
 }
 
