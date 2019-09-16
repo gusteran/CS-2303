@@ -44,7 +44,7 @@ int numAccessibleLayouts(House house) {
 	return numAccessible;
 }
 
-Search countTreasureInLayouts(Layout layout, Search search) {
+Search searchInLayouts(Layout layout, Search search) {
 	int countRooms = search.nRoomSearched;
 	int pastTreasure = search.treasure;
 	int numRooms = numAccessibleRooms(layout);
@@ -66,9 +66,5 @@ Search countTreasureInLayouts(Layout layout, Search search) {
 	printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
 			search.treasure - pastTreasure);
 	return search;
-}
-
-Room getNewRoom(House house) {
-	return getFirstRoom(house.layouts[0]);
 }
 

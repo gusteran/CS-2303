@@ -16,6 +16,6 @@ bool open(Room room){
 	return room.isOpen;
 }
 
-int numTreasure(Room room){
+int getTreasure(Room room){
 	return (room.isOpen) ? room.treasure:0;
 }

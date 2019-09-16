@@ -7,19 +7,6 @@
 
 #include "Layout.h"
 
-void printLayoutName(Layout layout) {
-	printf("Layout %d", layout.layoutNum);
-}
-
-void printGraph(Layout layout) {
-	for (int i = 0; i < layout.nRooms; i++) {
-		for (int j = 0; j < layout.nRooms; j++) {
-//			printf("%d\n",layout.rooms[j].hasTreasure);
-			printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
-		}
-	}
-}
-
 Room* accessibleRooms(Layout layout, Room *rooms) {
 	int isAccessible[layout.nRooms];
 	isAccessible[0] = 1;
@@ -31,8 +18,6 @@ Room* accessibleRooms(Layout layout, Room *rooms) {
 				if (row != col && isAccessible[col] != 1
 						&& layout.roomGraph[row * layout.nRooms + col] == 1) {
 					isAccessible[col] = 1;
-					printf("Room %d is the %d room\n",
-							layout.rooms[col].roomNum, roomNum);
 					rooms[roomNum++] = layout.rooms[col];
 				}
 			}
@@ -59,8 +44,14 @@ int numAccessibleRooms(Layout layout) {
 	return numAccessible;
 }
 
-Room getFirstRoom(Layout layout) {
-	Room room = layout.rooms[0];
-	return room;
+void printLayoutName(Layout layout) {
+	printf("Layout %d", layout.layoutNum);
 }
 
+void printGraph(Layout layout) {
+	for (int i = 0; i < layout.nRooms; i++) {
+		for (int j = 0; j < layout.nRooms; j++) {
+			printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+		}
+	}
+}

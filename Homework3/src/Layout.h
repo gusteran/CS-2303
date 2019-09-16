@@ -15,15 +15,13 @@ typedef struct {
 	int **roomGraph; //2D array of whether it can be entered
 } Layout;
 
-void printLayoutName(Layout layout);
-
-void printGraph(Layout layout);
 
 Room* accessibleRooms(Layout layout, Room *rooms);
 
 int numAccessibleRooms(Layout layout);
 
-Room getFirstRoom(Layout layout);
+void printLayoutName(Layout layout);
 
+void printGraph(Layout layout);
 
 #endif /* LAYOUT_H_ */

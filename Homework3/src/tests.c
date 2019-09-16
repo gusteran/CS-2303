@@ -66,7 +66,7 @@ bool accessibleRooms1(){
 bool countTreasureLayouts1(){
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasureInLayouts(layout1, baseSearch);
+	baseSearch = searchInLayouts(layout1, baseSearch);
 	return baseSearch.treasure == 1+3;
 }
 
@@ -86,22 +86,21 @@ bool accessibleRooms2(){
 bool countTreasureLayouts2(){
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasureInLayouts(layout2, baseSearch);
+	baseSearch = searchInLayouts(layout2, baseSearch);
 	return baseSearch.treasure == 5;
 }
 
 bool countTreasure1(){
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasure(house, baseSearch);
-	return baseSearch.treasure == 1+3+5;
+	return countTreasure(house, baseSearch) == 1+3+5;
 }
 
 bool countTreasureLayouts3(){
 	Room roomsSearched[maxRooms];
 	int maxRooms = 3;
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasureInLayouts(layout1, baseSearch);
+	baseSearch = searchInLayouts(layout1, baseSearch);
 	return baseSearch.treasure == 1;
 }
 
@@ -109,16 +108,14 @@ bool countTreasure2(){
 	int maxRooms = 4;
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasure(house, baseSearch);
-	return baseSearch.treasure == 1+3;
+	return countTreasure(house, baseSearch) == 1+3;
 }
 
 bool countTreasure3(){
 	int maxTreasure = 2;
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = countTreasure(house, baseSearch);
-	return baseSearch.treasure == 1+3;
+	return countTreasure(house, baseSearch) == 1+3;
 }
 
 

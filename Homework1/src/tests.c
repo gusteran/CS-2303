@@ -49,15 +49,15 @@ bool getNewRoomTest(){
 }
 
 bool haveTreasureTest1(){
-	return !numTreasure(room1);
+	return !getTreasure(room1);
 }
 
 bool haveTreasureTest2(){
-	return numTreasure(room2);
+	return getTreasure(room2);
 }
 
 bool haveTreasuretest3(){
-	return !numTreasure(room3);
+	return !getTreasure(room3);
 }
 
 bool countRoomsTest1(){

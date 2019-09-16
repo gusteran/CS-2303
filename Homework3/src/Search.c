@@ -7,13 +7,13 @@
 
 #include "Search.h"
 
-Search countTreasure(House house, Search search) {
+Search searchForTreasure(House house, Search search) {
 	int numLayouts = numAccessibleLayouts(house);
 	Layout layoutList[house.nLayouts];
 	Layout *layouts = layoutList;
 	layouts = accessibleLayouts(house, layouts);
 	for (int count = 0; count < numLayouts; count++) {
-		search = countTreasureInLayouts(layouts[count], search);
+		search = searchInLayouts(layouts[count], search);
 	}
 	printf("We have searched: ");
 	for(int countRooms = 0; countRooms < search.nRoomSearched; countRooms++){
@@ -24,3 +24,6 @@ Search countTreasure(House house, Search search) {
 	return search;
 }
 
+int countTreasure(House house, Search search){
+	return searchForTreasure(house, search).treasure;
+}

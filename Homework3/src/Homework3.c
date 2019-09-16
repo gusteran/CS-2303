@@ -5,7 +5,8 @@
  Version     :
  Copyright   : Your copyright notice
  Description : A series of classes that emulates a graph of a house including
- its layouts and rooms and a search capability.
+ its layouts and rooms and a search capability. This program can search for treasure
+ within the rooms of the house
  ============================================================================
  */
 

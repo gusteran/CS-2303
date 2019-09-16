@@ -17,6 +17,6 @@ typedef struct {
 
 bool open(Room room);
 
-bool numTreasure(Room room);
+bool getTreasure(Room room);
 
 #endif /* ROOM_H_ */

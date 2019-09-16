@@ -20,9 +20,7 @@ Layout* accessibleLayouts(House house, Layout *layouts);
 
 int numAccessibleLayouts(House house);
 
-Search countTreasureInLayouts(Layout layout, Search search);
-
-Room getNewRoom(House house);
+Search searchInLayouts(Layout layout, Search search);
 
 
 #endif /* HOUSE_H_ */

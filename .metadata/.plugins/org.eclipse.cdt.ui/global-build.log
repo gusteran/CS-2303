@@ -19802,3 +19802,799 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c"
                                                         ^~
 gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
 Info: Nothing to build for Homework3
+00:05:06 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:24:14: warning: implicit declaration of function 'getint'; did you mean 'getline'? [-Wimplicit-function-declaration]
+   maxRooms = getint();
+              ^~~~~~
+              getline
+..\src\production.c:40:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:88:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:88:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:90:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:90:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:90:2: warning: braces around scalar initializer
+..\src\production.c:90:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:90:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:90:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\production.o: in function `production':
+C:\Users\gustt\Desktop\Coding\CS-2303\Homework3\Debug/../src/production.c:24: undefined reference to `getint'
+collect2.exe: error: ld returned 1 exit status
+00:09:26 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:29:28: error: expected ';' before '}' token
+   scanf("%d", &maxTreasure)
+                            ^
+                            ;
+  } else //there is interesting information
+  ~                          
+..\src\production.c:36:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+Info: Nothing to build for CommandLine
+Info: Nothing to build for GameOfLife
+Info: Nothing to build for Homework1
+Info: Nothing to build for Homework2
+00:09:33 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:29:28: error: expected ';' before '}' token
+   scanf("%d", &maxTreasure)
+                            ^
+                            ;
+  } else //there is interesting information
+  ~                          
+..\src\production.c:36:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+Info: Nothing to build for Spreadsheet
+00:09:38 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:36:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+00:10:14 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+00:11:01 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+Info: Nothing to build for Homework3
+00:12:39 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:45:40: error: expected ';' before 'break'
+     printf("\nExtra argument found \n")
+                                        ^
+                                        ;
+     break;
+     ~~~~~                               
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+00:12:49 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:45:40: error: expected ';' before 'break'
+     printf("\nExtra argument found \n")
+                                        ^
+                                        ;
+     break;
+     ~~~~~                               
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+00:12:57 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Homework3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:13:08 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:13:27 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'printGraph':
+..\src\Layout.c:18:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+            ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            %n
+..\src\Layout.c: In function 'accessibleRooms':
+..\src\Layout.c:32:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c:34:33: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+        layout.rooms[col].roomNum, roomNum);
+                                 ^
+..\src\Layout.c:34:8: warning: statement with no effect [-Wunused-value]
+        layout.rooms[col].roomNum, roomNum);
+        ^~~~~~
+..\src\Layout.c:34:42: error: expected ';' before ')' token
+        layout.rooms[col].roomNum, roomNum);
+                                          ^
+                                          ;
+..\src\Layout.c:34:42: error: expected statement before ')' token
+..\src\Layout.c: In function 'numAccessibleRooms':
+..\src\Layout.c:51:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+00:13:39 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'printGraph':
+..\src\Layout.c:18:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+            ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            %n
+..\src\Layout.c: In function 'accessibleRooms':
+..\src\Layout.c:32:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'numAccessibleRooms':
+..\src\Layout.c:50:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:14:33 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:45:33: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("\nExtra argument \"%s\" found \n\n",strtol(argv[i], &eptr, 10));
+                                ~^               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                %d
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:14:49 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:84:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:84:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:2: warning: braces around scalar initializer
+..\src\production.c:86:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:86:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:86:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:15:21 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+Info: Nothing to build for Homework3
+Info: Nothing to build for Homework3
+00:17:20 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+In file included from ..\src\Room.h:12,
+                 from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\production.c:8:
+..\src\Teran.h:17:2: error: unknown type name 'Room'
+  Room *roomsSearched; //define as array of size maxRooms
+  ^~~~
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:51:61: warning: initialization of 'int *' from incompatible pointer type 'Room *' {aka 'struct <anonymous> *'} [-Wincompatible-pointer-types]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+                                                             ^~~~~~~~~~~~~
+..\src\production.c:51:61: note: (near initialization for 'search.roomsSearched')
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+00:17:49 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Room.o" "..\\src\\Room.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'accessibleLayouts':
+..\src\House.c:19:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+..\src\House.c: In function 'numAccessibleLayouts':
+..\src\House.c:37:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'printGraph':
+..\src\Layout.c:18:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+            ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            %n
+..\src\Layout.c: In function 'accessibleRooms':
+..\src\Layout.c:32:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'numAccessibleRooms':
+..\src\Layout.c:50:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+00:20:38 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'accessibleLayouts':
+..\src\House.c:19:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+..\src\House.c: In function 'numAccessibleLayouts':
+..\src\House.c:37:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:22:55 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'accessibleLayouts':
+..\src\House.c:19:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+..\src\House.c: In function 'numAccessibleLayouts':
+..\src\House.c:37:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:23:50 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:83:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:83:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:2: warning: braces around scalar initializer
+..\src\production.c:85:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:85:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:85:34: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'accessibleRooms':
+..\src\Layout.c:19:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'numAccessibleRooms':
+..\src\Layout.c:37:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'printGraph':
+..\src\Layout.c:54:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+            ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            %n
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'accessibleLayouts':
+..\src\House.c:19:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+..\src\House.c: In function 'numAccessibleLayouts':
+..\src\House.c:37:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+00:24:29 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:82:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:82:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:84:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:40:07 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:82:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:82:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:84:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:40:44 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:41:04 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework3
+00:41:59 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:55:16 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:82:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:82:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:2: warning: braces around scalar initializer
+..\src\production.c:84:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:84:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:84:34: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.c" 
+..\src\tests.c:39:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout1 = {1, 4, rooms1, roomGraph1};
+                                       ^~~~~~~~~~
+..\src\tests.c:39:39: note: (near initialization for 'layout1.roomGraph')
+..\src\tests.c:40:39: warning: initialization of 'int **' from incompatible pointer type 'int (*)[4]' [-Wincompatible-pointer-types]
+ const Layout layout2 = {2, 4, rooms2, roomGraph2};
+                                       ^~~~~~~~~~
+..\src\tests.c:40:39: note: (near initialization for 'layout2.roomGraph')
+..\src\tests.c:44:28: warning: initialization of 'int **' from incompatible pointer type 'int (*)[2]' [-Wincompatible-pointer-types]
+ House house = {2, layouts, layoutGraph};
+                            ^~~~~~~~~~~
+..\src\tests.c:44:28: note: (near initialization for 'house.layoutGraph')
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Room.o" "..\\src\\Room.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework3.o" "..\\src\\Homework3.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.c" 
+..\src\Layout.c: In function 'accessibleRooms':
+..\src\Layout.c:19:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'numAccessibleRooms':
+..\src\Layout.c:37:54: warning: comparison between pointer and integer
+       && layout.roomGraph[row * layout.nRooms + col] == 1) {
+                                                      ^~
+..\src\Layout.c: In function 'printGraph':
+..\src\Layout.c:54:13: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+            ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            %n
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.c" 
+..\src\House.c: In function 'accessibleLayouts':
+..\src\House.c:19:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+..\src\House.c: In function 'numAccessibleLayouts':
+..\src\House.c:37:56: warning: comparison between pointer and integer
+       && house.layoutGraph[row * house.nLayouts + col] == 1) {
+                                                        ^~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.c" 
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+00:59:51 **** Incremental Build of configuration Debug for project Homework3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.c" 
+..\src\production.c: In function 'production':
+..\src\production.c:35:22: warning: implicit declaration of function 'strtol' [-Wimplicit-function-declaration]
+     maxRooms = (int) strtol(argv[i], &eptr, 10);
+                      ^~~~~~
+..\src\production.c:97:43: warning: initialization of 'int **' from incompatible pointer type 'int (*)[(sizetype)(numRooms)]' [-Wincompatible-pointer-types]
+  Layout layout = { 1, numRooms, roomList, roomGraph };
+                                           ^~~~~~~~~
+..\src\production.c:97:43: note: (near initialization for 'layout.roomGraph')
+..\src\production.c:99:2: warning: braces around scalar initializer
+  House house = { 1, layouts, { { 1 } } };
+  ^~~~~
+..\src\production.c:99:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:99:2: warning: braces around scalar initializer
+..\src\production.c:99:2: note: (near initialization for 'house.layoutGraph')
+..\src\production.c:99:34: warning: initialization of 'int **' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  House house = { 1, layouts, { { 1 } } };
+                                  ^
+..\src\production.c:99:34: note: (near initialization for 'house.layoutGraph')
+gcc -o Homework3.exe "src\\Homework3.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 

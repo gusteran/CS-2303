@@ -12,6 +12,6 @@ bool open(Room room){
 	return room.isOpen;
 }
 
-bool numTreasure(Room room){
+bool getTreasure(Room room){
 	return room.isOpen && room.hasTreasure;
 }

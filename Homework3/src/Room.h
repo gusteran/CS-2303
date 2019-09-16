@@ -29,6 +29,6 @@ void printRoomName(Room room);
 
 bool open(Room room);
 
-int numTreasure(Room room);
+int getTreasure(Room room);
 
 #endif /* ROOM_H_ */
