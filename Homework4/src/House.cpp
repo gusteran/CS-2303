@@ -44,27 +44,29 @@ int numAccessibleLayouts(House house) {
 	return numAccessible;
 }
 
-Search searchInLayouts(Layout layout, Search search) {
-	int countRooms = search.nRoomSearched;
-	int pastTreasure = search.treasure;
+void searchInLayouts(Layout layout, Search *search) {
+	FILE *outputP = fopen("output.txt", "r+");
+	fseek(outputP, 0L, SEEK_END);
+	int countRooms = search->nRoomSearched;
+	int pastTreasure = search->treasure;
 	int numRooms = numAccessibleRooms(layout);
 	Room roomList[numRooms];
 	Room *rooms = roomList;
 	rooms = accessibleRooms(layout, rooms);
-	for (int count = 0;
-			count < numRooms && search.nRoomSearched < search.maxRooms
-					&& search.treasure < search.maxTreasure; count++) {
-		search.treasure += rooms[count].treasure;
-		search.roomsSearched[search.nRoomSearched++] = rooms[count];
+	for (int count = 0;count < numRooms && search->nRoomSearched < search->maxRooms && search->treasure < search->maxTreasure; count++) {
+		search->treasure += rooms[count].treasure;
+		fprintf(outputP, "In room %d, we have found %f pieces of treasure\n", rooms[count].roomNum, search->treasure);
+		search->roomsSearched[search->nRoomSearched++] = rooms[count];
 	}
 	printf("We have searched: ");
-	for (; countRooms < search.nRoomSearched; countRooms++) {
-		printRoomName(search.roomsSearched[countRooms]);
-		if (countRooms + 1 < search.nRoomSearched)
+	for (; countRooms < search->nRoomSearched; countRooms++) {
+		printRoomName(search->roomsSearched[countRooms]);
+		if (countRooms + 1 < search->nRoomSearched)
 			printf(", ");
 	}
-	printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
-			search.treasure - pastTreasure);
-	return search;
+	fprintf(outputP,"\n");
+	fclose(outputP);
+	printf("\nAnd we have found %f pieces of treasure in this Layout\n\n",
+			search->treasure - pastTreasure);
 }
 

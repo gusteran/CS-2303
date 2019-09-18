@@ -1283,3 +1283,1767 @@ Info: Nothing to build for Spreadsheet
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
 g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:15:02 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:16:09 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+Info: Nothing to build for Homework4
+12:23:14 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:26:26 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:26:41 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:26:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:27:06 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:27:44 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:27:50 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:28:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:28:52 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:30:31 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:32:16 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:32:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:36:13 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'Search searchForTreasure(House, Search)':
+..\src\Search.cpp:21:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\src\Search.cpp: At global scope:
+..\src\Search.cpp:23:2: error: expected unqualified-id before 'for'
+  for(int countRooms = 0; countRooms < search.nRoomSearched; countRooms++){
+  ^~~
+..\src\Search.cpp:23:26: error: 'countRooms' does not name a type
+  for(int countRooms = 0; countRooms < search.nRoomSearched; countRooms++){
+                          ^~~~~~~~~~
+..\src\Search.cpp:23:61: error: 'countRooms' does not name a type
+  for(int countRooms = 0; countRooms < search.nRoomSearched; countRooms++){
+                                                             ^~~~~~~~~~
+..\src\Search.cpp:28:2: error: expected unqualified-id before 'return'
+  return search;
+  ^~~~~~
+..\src\Search.cpp:29:1: error: expected declaration before '}' token
+ }
+ ^
+12:38:06 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:40:11 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:41:21 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+..\src\production.cpp:66:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:77:6: warning: variable 'roomGraph' set but not used [-Wunused-but-set-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasureLayouts1()':
+..\src\tests.cpp:92:40: error: cannot convert 'Search' to 'Search*'
+  baseSearch = searchInLayouts(layout1, baseSearch);
+                                        ^~~~~~~~~~
+In file included from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\House.h:23:47: note:   initializing argument 2 of 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+                                       ~~~~~~~~^~~~~~
+..\src\tests.cpp: In function 'bool countTreasureLayouts2()':
+..\src\tests.cpp:112:40: error: cannot convert 'Search' to 'Search*'
+  baseSearch = searchInLayouts(layout2, baseSearch);
+                                        ^~~~~~~~~~
+In file included from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\House.h:23:47: note:   initializing argument 2 of 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+                                       ~~~~~~~~^~~~~~
+..\src\tests.cpp: In function 'bool countTreasureLayouts3()':
+..\src\tests.cpp:126:40: error: cannot convert 'Search' to 'Search*'
+  baseSearch = searchInLayouts(layout1, baseSearch);
+                                        ^~~~~~~~~~
+In file included from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\House.h:23:47: note:   initializing argument 2 of 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+                                       ~~~~~~~~^~~~~~
+12:41:41 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'Search searchInLayouts(Layout, Search*)':
+..\src\House.cpp:68:9: error: could not convert 'search' from 'Search*' to 'Search'
+  return search;
+         ^~~~~~
+12:41:46 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'Search searchInLayouts(Layout, Search*)':
+..\src\House.cpp:68:9: error: could not convert 'search' from 'Search*' to 'Search'
+  return search;
+         ^~~~~~
+12:43:52 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'Search searchForTreasure(House, Search*)':
+..\src\Search.cpp:18:35: error: cannot convert 'Search**' to 'Search*'
+   searchInLayouts(layouts[count], &search);
+                                   ^~~~~~~
+In file included from ..\src\Search.h:10,
+                 from ..\src\Search.cpp:8:
+..\src\House.h:23:47: note:   initializing argument 2 of 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+                                       ~~~~~~~~^~~~~~
+..\src\Search.cpp:21:46: error: request for member 'nRoomSearched' in 'search', which is of pointer type 'Search*' (maybe you meant to use '->' ?)
+  for(int countRooms = 0; countRooms < search.nRoomSearched; countRooms++){
+                                              ^~~~~~~~~~~~~
+..\src\Search.cpp:22:24: error: request for member 'roomsSearched' in 'search', which is of pointer type 'Search*' (maybe you meant to use '->' ?)
+   printRoomName(search.roomsSearched[countRooms]);
+                        ^~~~~~~~~~~~~
+..\src\Search.cpp:23:26: error: request for member 'nRoomSearched' in 'search', which is of pointer type 'Search*' (maybe you meant to use '->' ?)
+   if(countRooms+1<search.nRoomSearched) printf(", ");
+                          ^~~~~~~~~~~~~
+..\src\Search.cpp:26:9: error: could not convert 'search' from 'Search*' to 'Search'
+  return search;
+         ^~~~~~
+..\src\Search.cpp: In function 'int countTreasure(House, Search)':
+..\src\Search.cpp:30:35: error: expected ';' before 'return'
+  searchForTreasure(house, &search)
+                                   ^
+                                   ;
+  return search.treasure;
+  ~~~~~~                            
+..\src\Search.cpp:32:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+12:44:47 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+..\src\production.cpp:66:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:77:6: warning: variable 'roomGraph' set but not used [-Wunused-but-set-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp:47:6: error: ambiguating new declaration of 'void searchInLayouts(Layout, Search*)'
+ void searchInLayouts(Layout layout, Search *search) {
+      ^~~~~~~~~~~~~~~
+In file included from ..\src\House.cpp:8:
+..\src\House.h:23:8: note: old declaration 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+        ^~~~~~~~~~~~~~~
+12:45:02 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'Search searchForTreasure(House, Search*)':
+..\src\Search.cpp:26:9: error: could not convert 'search' from 'Search*' to 'Search'
+  return search;
+         ^~~~~~
+12:45:04 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp:47:6: error: ambiguating new declaration of 'void searchInLayouts(Layout, Search*)'
+ void searchInLayouts(Layout layout, Search *search) {
+      ^~~~~~~~~~~~~~~
+In file included from ..\src\House.cpp:8:
+..\src\House.h:23:8: note: old declaration 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+        ^~~~~~~~~~~~~~~
+12:45:15 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp:10:6: error: ambiguating new declaration of 'void searchForTreasure(House, Search*)'
+ void searchForTreasure(House house, Search *search) {
+      ^~~~~~~~~~~~~~~~~
+In file included from ..\src\Search.cpp:8:
+..\src\Search.h:13:8: note: old declaration 'Search searchForTreasure(House, Search*)'
+ Search searchForTreasure(House house, Search *search);
+        ^~~~~~~~~~~~~~~~~
+12:45:18 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp:47:6: error: ambiguating new declaration of 'void searchInLayouts(Layout, Search*)'
+ void searchInLayouts(Layout layout, Search *search) {
+      ^~~~~~~~~~~~~~~
+In file included from ..\src\House.cpp:8:
+..\src\House.h:23:8: note: old declaration 'Search searchInLayouts(Layout, Search*)'
+ Search searchInLayouts(Layout layout, Search *search);
+        ^~~~~~~~~~~~~~~
+12:45:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+..\src\production.cpp:66:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:77:6: warning: variable 'roomGraph' set but not used [-Wunused-but-set-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasureLayouts1()':
+..\src\tests.cpp:92:51: error: no match for 'operator=' (operand types are 'Search' and 'void')
+  baseSearch = searchInLayouts(layout1, &baseSearch);
+                                                   ^
+In file included from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(const Search&)'
+ } Search;
+   ^~~~~~
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'const Search&'
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(Search&&)'
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'Search&&'
+..\src\tests.cpp: In function 'bool countTreasureLayouts2()':
+..\src\tests.cpp:112:51: error: no match for 'operator=' (operand types are 'Search' and 'void')
+  baseSearch = searchInLayouts(layout2, &baseSearch);
+                                                   ^
+In file included from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(const Search&)'
+ } Search;
+   ^~~~~~
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'const Search&'
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(Search&&)'
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'Search&&'
+..\src\tests.cpp: In function 'bool countTreasureLayouts3()':
+..\src\tests.cpp:126:51: error: no match for 'operator=' (operand types are 'Search' and 'void')
+  baseSearch = searchInLayouts(layout1, &baseSearch);
+                                                   ^
+In file included from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(const Search&)'
+ } Search;
+   ^~~~~~
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'const Search&'
+..\src\Room.h:27:3: note: candidate: 'constexpr Search& Search::operator=(Search&&)'
+..\src\Room.h:27:3: note:   no known conversion for argument 1 from 'void' to 'Search&&'
+12:46:05 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:46:26 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:11:6: warning: unused variable 'numLayouts' [-Wunused-variable]
+  int numLayouts = numAccessibleLayouts(house);
+      ^~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:46:33 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:76: error: invalid use of 'void'
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, searchInLayouts(layouts[0], search).treasure);
+                                                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+..\src\Search.cpp:16:76: error: invalid use of 'void'
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, searchInLayouts(layouts[1], search).treasure);
+                                                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+12:46:44 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:76: error: invalid use of 'void'
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, searchInLayouts(layouts[0], search).treasure);
+                                                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+..\src\Search.cpp:16:76: error: invalid use of 'void'
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, searchInLayouts(layouts[1], search).treasure);
+                                                             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+12:47:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:47:57 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:48:13 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:48:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:49:05 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:49:14 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:49:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:50:07 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:50:48 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:51:18 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:51:25 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:53:07 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:53:15 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:53:21 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:53:27 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:54:18 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:54:33 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:54:48 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:55:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:56:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:58:56 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:59:07 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:00:46 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:00:55 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:01:10 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:01:24 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:02:04 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:02:14 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:02:30 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:03:12 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:03:36 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:68:20: error: invalid types 'int[int]' for array subscript
+  search->treasure[0] += treasure;
+                    ^
+13:03:48 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:03:55 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:04:05 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:04:40 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:05:32 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:05:39 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:06:25 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:06:46 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:06:58 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:07:09 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:07:21 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:07:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:07:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:08:36 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:08:47 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:08:57 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:10:09 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:10:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:10:50 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:11:00 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:11:07 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:11:29 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:11:40 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:11:49 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:63:22: error: invalid conversion from 'int*' to 'int' [-fpermissive]
+   search->treasure = &treasure;//= treasure;
+                      ^~~~~~~~~
+13:12:10 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:63:24: error: lvalue required as left operand of assignment
+   &search->treasure = &treasure;//= treasure;
+                        ^~~~~~~~
+13:12:12 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:63:24: error: lvalue required as left operand of assignment
+   &search->treasure = &treasure;//= treasure;
+                        ^~~~~~~~
+13:12:30 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:12:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:12:56 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:13:02 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:13:08 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:13:14 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:14:03 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:14:13 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:14:22 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:14:43 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:15:06 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:15:21 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:15:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:16:52 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:17:40 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:17:56 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:18:55 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:58:3: error: 'serach' was not declared in this scope
+   serach->treasure += rooms[count].treasure;
+   ^~~~~~
+..\src\House.cpp:58:3: note: suggested alternative: 'search'
+   serach->treasure += rooms[count].treasure;
+   ^~~~~~
+   search
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+13:18:59 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:58:3: error: 'serach' was not declared in this scope
+   serach->treasure += rooms[count].treasure;
+   ^~~~~~
+..\src\House.cpp:58:3: note: suggested alternative: 'search'
+   serach->treasure += rooms[count].treasure;
+   ^~~~~~
+   search
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+13:19:04 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:19:20 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:20:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:20:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:21:29 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:21:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:21:59 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasureLayouts2()':
+..\src\tests.cpp:114:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:22:19 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:22:30 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:22:46 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:23:05 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:23:24 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:23:39 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:23:50 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:24:12 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:24:24 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:6: warning: unused variable 'treasure' [-Wunused-variable]
+  int treasure = 0;
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:25:17 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:25:26 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:25:33 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:25:47 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:25:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:26:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:27:08 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:27:26 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:27:38 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:30:50 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:78:21: error: cannot convert 'int (*)[numRooms]' to 'int**' in initialization
+  int **roomGraphP = roomGraph;
+                     ^~~~~~~~~
+..\src\production.cpp:101:24: error: braces around scalar initializer for type 'int'
+  int layoutGraph = {{1}};
+                        ^
+..\src\production.cpp:102:23: error: invalid conversion from 'int' to 'int**' [-fpermissive]
+  int **layoutGraphP = layoutGraph;
+                       ^~~~~~~~~~~
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+13:31:02 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:78:21: error: cannot convert 'int (*)[numRooms]' to 'int**' in initialization
+  int **roomGraphP = roomGraph;
+                     ^~~~~~~~~
+..\src\production.cpp:102:23: error: cannot convert 'int (*)[1]' to 'int**' in initialization
+  int **layoutGraphP = layoutGraph;
+                       ^~~~~~~~~~~
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+13:31:52 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:105:23: error: cannot convert 'int (*)[1]' to 'int**' in initialization
+  int **layoutGraphP = layoutGraph;
+                       ^~~~~~~~~~~
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+13:32:53 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+..\src\production.cpp:80:18: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      roomGraphP[i] = roomGraph[i];
+                  ^
+..\src\production.cpp:106:18: warning: 'layoutGraphP' is used uninitialized in this function [-Wuninitialized]
+  layoutGraphP[0] = layoutGraph[0];
+  ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:33:13 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:33:52 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:17:7: warning: unused variable 'szNumbers' [-Wunused-variable]
+  char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+       ^~~~~~~~~
+..\src\production.cpp:66:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:75:6: warning: unused variable 'numRooms' [-Wunused-variable]
+  int numRooms = readIn[countCharacters] - '0';
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:34:43 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:74:6: warning: unused variable 'numRooms' [-Wunused-variable]
+  int numRooms = readIn[countCharacters] - '0';
+      ^~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:34:58 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:79:18: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      roomGraphP[i] = roomGraph[i];
+                  ^
+..\src\production.cpp:105:18: warning: 'layoutGraphP' is used uninitialized in this function [-Wuninitialized]
+  layoutGraphP[0] = layoutGraph[0];
+  ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:35:24 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:79:18: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      roomGraphP[i] = roomGraph[i];
+                  ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:35:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:79:18: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      roomGraphP[i] = roomGraph[i];
+                  ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:36:02 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:79:18: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+      roomGraphP[i] = roomGraph[i];
+                  ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:39:28 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:76:6: warning: unused variable 'roomGraph' [-Wunused-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+..\src\production.cpp:77:8: warning: unused variable 'roomGraphP' [-Wunused-variable]
+  int **roomGraphP;
+        ^~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:39:57 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:86:19: warning: 'roomGraphP' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       roomGraphP[i] = roomGraph[i];
+                   ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:40:06 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:76:6: warning: variable 'roomGraph' set but not used [-Wunused-but-set-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+..\src\production.cpp:77:8: warning: unused variable 'roomGraphP' [-Wunused-variable]
+  int **roomGraphP;
+        ^~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:41:11 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+..\src\production.cpp:76:6: warning: variable 'roomGraph' set but not used [-Wunused-but-set-variable]
+  int roomGraph[numRooms][numRooms];
+      ^~~~~~~~~
+..\src\production.cpp:77:8: warning: unused variable 'roomGraphP' [-Wunused-variable]
+  int **roomGraphP = new int*[numRooms];
+        ^~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:41:17 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:65:9: warning: unused variable 'search' [-Wunused-variable]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+         ^~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:41:40 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:42:46 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:43:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:45:20 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:33:4: error: 'cout' was not declared in this scope
+    cout << argv[i] << "\n";
+    ^~~~
+13:46:17 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:46:31 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:47:06 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:47:31 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:35:22: error: invalid conversion from 'char*' to 'int' [-fpermissive]
+     maxRooms = argv[i];(int) strtol(eptr, &eptr, 10);
+                ~~~~~~^
+..\src\production.cpp:39:25: error: invalid conversion from 'char*' to 'int' [-fpermissive]
+     maxTreasure = argv[i];(int) strtol(eptr, &eptr, 10);
+                   ~~~~~~^
+13:48:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+13:50:01 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:50:28 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:55:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Room.o" "..\\src\\Room.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:66:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasureLayouts1()':
+..\src\tests.cpp:91:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:91:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasureLayouts2()':
+..\src\tests.cpp:111:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:111:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure1()':
+..\src\tests.cpp:118:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:118:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasureLayouts3()':
+..\src\tests.cpp:125:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:125:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure2()':
+..\src\tests.cpp:133:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:133:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure3()':
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:62:75: warning: narrowing conversion of 'treasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+                                                                           ^
+..\src\production.cpp:62:75: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.cpp" 
+..\src\Layout.cpp: In function 'void printGraph(Layout)':
+..\src\Layout.cpp:54:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int*' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+           ^~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+..\src\Search.cpp:24:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this House\n\n", search->treasure);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:56:22 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasure3()':
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+13:57:08 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:24:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxRooms);
+         ^~~~  ~~~~~~~~~
+..\src\production.cpp:51:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxRooms);
+         ^~~~  ~~~~~~~~~
+..\src\production.cpp:61:29: error: conversion from 'double' to 'unsigned int' in a converted constant expression
+  Room roomsSearched[maxRooms];
+                             ^
+..\src\production.cpp:61:29: error: size of array 'roomsSearched' has non-integral type 'double'
+..\src\production.cpp:62:75: warning: narrowing conversion of 'maxTreasure' from 'int' to 'double' inside { } [-Wnarrowing]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+                                                                           ^
+..\src\production.cpp:62:75: warning: narrowing conversion of 'maxRooms' from 'double' to 'int' inside { } [-Wnarrowing]
+14:01:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:02:16 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:03:35 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp:9:10: fatal error: fstream.h: No such file or directory
+ #include <fstream.h>
+          ^~~~~~~~~~~
+compilation terminated.
+14:03:47 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp:9:10: fatal error: iostream.h: No such file or directory
+ #include <iostream.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+14:04:33 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:49:2: error: 'fstream' was not declared in this scope
+  fstream  afile;
+  ^~~~~~~
+..\src\House.cpp:49:2: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\istream:38,
+                 from ..\src\House.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:168:33: note:   'std::fstream'
+   typedef basic_fstream<char>   fstream;
+                                 ^~~~~~~
+..\src\House.cpp:50:2: error: 'afile' was not declared in this scope
+  afile.open("file.dat", ios::out);
+  ^~~~~
+..\src\House.cpp:50:25: error: 'ios' has not been declared
+  afile.open("file.dat", ios::out);
+                         ^~~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:05:20 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:49:2: error: 'fstream' was not declared in this scope
+  fstream  afile;
+  ^~~~~~~
+..\src\House.cpp:49:2: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\istream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\fstream:38,
+                 from ..\src\House.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:168:33: note:   'std::fstream'
+   typedef basic_fstream<char>   fstream;
+                                 ^~~~~~~
+..\src\House.cpp:50:2: error: 'afile' was not declared in this scope
+  afile.open("file.dat", ios::out);
+  ^~~~~
+..\src\House.cpp:50:25: error: 'ios' has not been declared
+  afile.open("file.dat", ios::out);
+                         ^~~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:06:03 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:50:2: error: 'fstream' was not declared in this scope
+  fstream  afile;
+  ^~~~~~~
+..\src\House.cpp:50:2: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\ios:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\istream:38,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\fstream:38,
+                 from ..\src\House.cpp:9:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\iosfwd:168:33: note:   'std::fstream'
+   typedef basic_fstream<char>   fstream;
+                                 ^~~~~~~
+..\src\House.cpp:51:2: error: 'afile' was not declared in this scope
+  afile.open("file.dat", ios::out);
+  ^~~~~
+..\src\House.cpp:51:25: error: 'ios' has not been declared
+  afile.open("file.dat", ios::out);
+                         ^~~
+..\src\House.cpp:70:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:12:22 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:63:10: error: too few arguments to function 'size_t fwrite(const void*, size_t, size_t, FILE*)'
+   fwrite()
+          ^
+In file included from ..\src\Room.h:10,
+                 from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\House.cpp:8:
+c:\mingw\include\stdio.h:768:41: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                         ^~~~~~
+..\src\House.cpp:71:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:12:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:49:2: error: 'String' was not declared in this scope
+  String buffer = { 'x' , 'y' , 'z' };
+  ^~~~~~
+..\src\House.cpp:49:2: note: suggested alternative: 'stdin'
+  String buffer = { 'x' , 'y' , 'z' };
+  ^~~~~~
+  stdin
+..\src\House.cpp:50:10: error: 'buffer' was not declared in this scope
+  fwrite (buffer , sizeof(int)+sizeof(char), sizeof(buffer), fp);
+          ^~~~~~
+..\src\House.cpp:63:10: error: too few arguments to function 'size_t fwrite(const void*, size_t, size_t, FILE*)'
+   fwrite()
+          ^
+In file included from ..\src\Room.h:10,
+                 from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\House.cpp:8:
+c:\mingw\include\stdio.h:768:41: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                         ^~~~~~
+..\src\House.cpp:71:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:14:59 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:61:23: error: invalid conversion from 'int' to 'const void*' [-fpermissive]
+   fwrite(rooms[count].roomNum , sizeof(int), 1, fp);
+          ~~~~~~~~~~~~~^~~~~~~
+In file included from ..\src\Room.h:10,
+                 from ..\src\Layout.h:10,
+                 from ..\src\House.h:10,
+                 from ..\src\House.cpp:8:
+c:\mingw\include\stdio.h:768:49: note:   initializing argument 1 of 'size_t fwrite(const void*, size_t, size_t, FILE*)'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                                 ^~~~~~~~~~~~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:16:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:18:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:61:15: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   fprintf(fp, "%d %d\n", rooms[count].roomNum, search->treasure);
+               ^~~~~~~~~                        ~~~~~~~~~~~~~~~~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:19:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:21:34 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:22:14 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:23:24 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:23:41 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:25:37 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:26:04 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:70:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:26:57 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+..\src\Search.cpp:24:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this House\n\n", search->treasure);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\House.o:House.cpp:(.bss+0x0): multiple definition of `fp'; src\Homework4.o:Homework4.cpp:(.bss+0x0): first defined here
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Search.o:Search.cpp:(.bss+0x0): multiple definition of `fp'; src\Homework4.o:Homework4.cpp:(.bss+0x0): first defined here
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\production.o:production.cpp:(.bss+0x0): multiple definition of `fp'; src\Homework4.o:Homework4.cpp:(.bss+0x0): first defined here
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\tests.o:tests.cpp:(.bss+0x0): multiple definition of `fp'; src\Homework4.o:Homework4.cpp:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+14:27:33 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+In file included from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\production.cpp:8:
+..\src\House.h:11:15: error: 'fp' was not declared in this scope
+ #define FILE *fp = fopen("output.txt", "w");
+               ^~
+..\src\production.cpp:60:2: note: in expansion of macro 'FILE'
+  FILE *fp = fopen("houseGraph.txt", "r");
+  ^~~~
+14:28:42 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+In file included from ..\src\House.cpp:8:
+..\src\House.h:23:48: error: expected constructor, destructor, or type conversion before ';' token
+  searchInLayouts(Layout layout, Search *search);
+                                                ^
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:48:8: error: 'fp' was not declared in this scope
+  fseek(fp, 0L, SEEK_END);
+        ^~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:30:16 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+In file included from ..\src\House.cpp:8:
+..\src\House.h:23:48: error: expected constructor, destructor, or type conversion before ';' token
+  searchInLayouts(Layout layout, Search *search);
+                                                ^
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:48:8: error: 'fp' was not declared in this scope
+  fseek(fp, 0L, SEEK_END);
+        ^~
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14:31:11 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+In file included from ..\src\Search.h:10,
+                 from ..\src\Search.cpp:8:
+..\src\House.h:23:48: error: expected constructor, destructor, or type conversion before ';' token
+  searchInLayouts(Layout layout, Search *search);
+                                                ^
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+..\src\Search.cpp:17:3: error: 'searchInLayouts' was not declared in this scope
+   searchInLayouts(layouts[count], search);
+   ^~~~~~~~~~~~~~~
+..\src\Search.cpp:24:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this House\n\n", search->treasure);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~
+14:31:16 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+In file included from ..\src\Search.h:10,
+                 from ..\src\production.h:12,
+                 from ..\src\tests.h:10,
+                 from ..\src\Homework4.cpp:15:
+..\src\House.h:23:48: error: expected constructor, destructor, or type conversion before ';' token
+  searchInLayouts(Layout layout, Search *search);
+                                                ^
+14:32:16 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:70:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+..\src\Search.cpp:24:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this House\n\n", search->treasure);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:33:07 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:33:20 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:69:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:33:49 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:70:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:34:03 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:70:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("\nAnd we have found %d pieces of treasure in this Layout\n\n",
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    search->treasure - pastTreasure);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:35:00 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:35:32 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:100:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("Count treasure = %d", countTreasure(house, search));
+         ^~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:35:58 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:36:49 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:37:03 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:37:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:38:18 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:40:04 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:40:47 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:41:15 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:41:53 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+..\src\House.cpp: In function 'void searchInLayouts(Layout, Search*)':
+..\src\House.cpp:68:9: error: 'fp' was not declared in this scope
+  fclose(fp);
+         ^~
+14:42:19 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:42:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:45:58 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:46:11 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:46:21 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:46:35 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:46:45 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:47:35 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:50:30 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:18:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+14:50:59 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:18:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:51:58 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+..\src\Search.cpp: In function 'void searchForTreasure(House, Search*)':
+..\src\Search.cpp:15:9: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("NumLayouts %d\t SearchInLayouts %d\n", numLayouts, search->treasure);\
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+14:52:19 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4

@@ -1,0 +1,38 @@
+In room 0, we have found 0.000000 pieces of treasure
+In room 1, we have found 0.000000 pieces of treasure
+In room 2, we have found 1.000000 pieces of treasure
+In room 3, we have found 4.000000 pieces of treasure
+
+In room 0, we have found 0.000000 pieces of treasure
+In room 1, we have found 0.000000 pieces of treasure
+In room 2, we have found 1.000000 pieces of treasure
+In room 3, we have found 4.000000 pieces of treasure
+
+In room 10, we have found 4.000000 pieces of treasure
+In room 13, we have found 9.000000 pieces of treasure
+
+In room 10, we have found 0.000000 pieces of treasure
+In room 13, we have found 5.000000 pieces of treasure
+
+In room 0, we have found 0.000000 pieces of treasure
+In room 1, we have found 0.000000 pieces of treasure
+In room 2, we have found 1.000000 pieces of treasure
+
+In room 0, we have found 0.000000 pieces of treasure
+In room 1, we have found 0.000000 pieces of treasure
+In room 2, we have found 1.000000 pieces of treasure
+In room 3, we have found 4.000000 pieces of treasure
+
+
+In room 0, we have found 0.000000 pieces of treasure
+In room 1, we have found 0.000000 pieces of treasure
+In room 2, we have found 1.000000 pieces of treasure
+In room 3, we have found 4.000000 pieces of treasure
+
+
+In room 1, we have found 5.000000 pieces of treasure
+In room 4, we have found 8.000000 pieces of treasure
+In room 5, we have found 10.000000 pieces of treasure
+In room 3, we have found 27.000000 pieces of treasure
+In room 2, we have found 49.000000 pieces of treasure
+

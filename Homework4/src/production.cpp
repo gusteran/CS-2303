@@ -10,11 +10,10 @@
 bool production(int argc, char *argv[]) {
 //	int FILENAMELENGTHALLOWANCE = 100;
 	bool answer = false;
-	int treasure = 0;
+	double treasure = 0;
 	int maxRooms = 100;
 	int nRooms = 0;
-	int maxTreasure = 100;
-	char szNumbers[] = "2001 60c0c0 -1101110100110100100000 0x6fffff";
+	double maxTreasure = 100;
 	char *eptr;
 	if (argc <= 2) //no interesting information
 			{
@@ -29,16 +28,13 @@ bool production(int argc, char *argv[]) {
 		scanf("%d", &maxTreasure);
 	} else //there is interesting information
 	{
-//		printf("\nNumber Of Arguments Passed: %d",argc);
 		for (int i = 1; i < argc; i++) {
 			switch (i) {
 			case 1:
-				maxRooms = (int) strtol(eptr, &eptr, 10);
-//				printf("maxRooms = %d\n", maxRooms);
+				maxRooms = atof(argv[i]);
 				break;
 			case 2:
-				maxTreasure = (int) strtol(eptr, &eptr, 10);
-//				printf("maxTreasure = %d\n", maxTreasure);
+				maxTreasure = atof(argv[i]);
 				break;
 			default:
 				printf("\nExtra argument \"%d\" found \n\n",
@@ -49,10 +45,10 @@ bool production(int argc, char *argv[]) {
 	}
 
 	while(maxRooms < 0 || maxRooms > 1000){
-				fflush(stdin);
-				printf("What is the maximum number of rooms to be searched? ");
-				fflush(stdout);
-				scanf("%d", &maxRooms);
+		fflush(stdin);
+		printf("What is the maximum number of rooms to be searched? ");
+		fflush(stdout);
+		scanf("%d", &maxRooms);
 	}
 	while(maxTreasure<0 || maxTreasure>1000){
 		fflush(stdin);
@@ -73,14 +69,16 @@ bool production(int argc, char *argv[]) {
 	int countCharacters = 0;
 
 	int numRooms = readIn[countCharacters] - '0';
-//	printf("numRooms %d\n", numRooms);
 	int roomGraph[numRooms][numRooms];
+	int **roomGraphP = new int*[numRooms];
 	for (int i = 0; i < numRooms; i++) {
 		for (int j = 0; j < numRooms; j++) {
 			countCharacters += 2;
-//			printf("Char %d: %c is value %d\n", countCharacters, readIn[countCharacters], readIn[countCharacters]);
 			roomGraph[i][j] = readIn[countCharacters] - '0';
 		}
+	}
+	for(int i = 0; i < numRooms; i++){
+			   roomGraphP[i] = roomGraph[i];
 	}
 	countCharacters += 1;
 	Room roomList[numRooms];
@@ -89,15 +87,16 @@ bool production(int argc, char *argv[]) {
 		roomList[i] = room;
 		while (readIn[++countCharacters] >= '0'
 				&& readIn[countCharacters] <= '9' && countCharacters < size) {
-//			printf("Read in val: %c %d\n", readIn[countCharacters], readIn[countCharacters]);
 			roomList[i].treasure = roomList[i].treasure * 10
 					+ readIn[countCharacters] - '0';
 		}
-//		printf("Treasure for %d = %d\n", i, roomList[i].treasure);
 	}
-//	Layout layout = { 1, numRooms, roomList, roomGraph };
-//	Layout layouts[1] = { layout };
-//	House house = { 1, layouts, { { 1 } } };
-//	printf("Count treasure = %d", searchForTreasure(house, search).treasure);
+	Layout layout = { 1, numRooms, roomList, roomGraphP };
+	Layout layouts[1] = { layout };
+	int layoutGraph[1][1] = {{1}};
+	int **layoutGraphP = new int*[1];
+	layoutGraphP[0] = layoutGraph[0];
+	House house = { 1, layouts, layoutGraphP };
+	printf("Count treasure = %f", countTreasure(house, search));
 	return answer;
 }

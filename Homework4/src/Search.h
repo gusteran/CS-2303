@@ -10,8 +10,8 @@
 #include "House.h"
 
 
-Search searchForTreasure(House house, Search search);
+void searchForTreasure(House house, Search *search);
 
-int countTreasure(House house, Search search);
+double countTreasure(House house, Search search);
 
 #endif /* SEARCH_H_ */

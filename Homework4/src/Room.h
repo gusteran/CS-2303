@@ -14,13 +14,13 @@
 typedef struct {
 	int roomNum;
 	bool isOpen;
-	int treasure;
+	double treasure;
 } Room;
 
 
 typedef struct {
-	int treasure;
-	int maxTreasure;
+	double treasure;
+	double maxTreasure;
 	int nRoomSearched;
 	int maxRooms;
 	Room *roomsSearched; //define as array of size maxRooms

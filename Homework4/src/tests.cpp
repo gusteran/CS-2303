@@ -18,13 +18,12 @@ bool tests(){
 	answer &= accessibleRooms2();
 	answer &= countTreasureLayouts2();
 	answer &= countTreasureLayouts3();
-//	answer &= countTreasure2();
-//	answer &= countTreasure3();
+	answer &= countTreasure2();
+	answer &= countTreasure3();
 //	answer &=
 	return answer;
 }
 
-House house;
 const Room room0 = {0, false, false};
 const Room room1 = {1, true, false};
 const Room room2 = {2, true, 1};
@@ -41,9 +40,11 @@ Room rooms2[4] = {room10, room11, room12, room13};
 int roomGraph2[4][4] = {{1, 0, 0, 1}, {0, 1, 0, 0}, {0, 0, 1, 0}, {1, 0, 0, 1}};
 int **roomGraph2P = new int*[4];
 const Layout layout2 = {2, 4, rooms2, roomGraph2P};
-
-
+int layoutGraph[2][2] = {{1,1},{1,1}};
+int **layoutGraphP = new int*[2];
 Layout layouts[2] = {layout1, layout2};
+House house = {2, layouts, layoutGraphP};
+
 
 
 
@@ -57,20 +58,18 @@ void initialize(){
 	   roomGraph2P[i] = roomGraph2[i];
 	}
 
-	int layoutGraph[2][2] = {{1,1},{1,1}};
 
-	int **layoutGraphP = new int*[2];
 	for(int i = 0; i < 2; i++){
 	   layoutGraphP[i] = layoutGraph[i];
 	}
 
-	house = {2, layouts, layoutGraphP};
+
 }
 
-int treasure = 0;
-int maxTreasure = 10;
+double treasure = 0;
+double maxTreasure = 10;
 int nRooms = 0;
-const int maxRooms = 20;
+int maxRooms = 20;
 
 
 bool countRooms1(){
@@ -90,7 +89,7 @@ bool accessibleRooms1(){
 bool countTreasureLayouts1(){
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = searchInLayouts(layout1, baseSearch);
+	searchInLayouts(layout1, &baseSearch);
 	return baseSearch.treasure == 1+3;
 }
 
@@ -110,7 +109,7 @@ bool accessibleRooms2(){
 bool countTreasureLayouts2(){
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = searchInLayouts(layout2, baseSearch);
+	searchInLayouts(layout2, &baseSearch);
 	return baseSearch.treasure == 5;
 }
 
@@ -124,7 +123,7 @@ bool countTreasureLayouts3(){
 	Room roomsSearched[maxRooms];
 	int maxRooms = 3;
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
-	baseSearch = searchInLayouts(layout1, baseSearch);
+	searchInLayouts(layout1, &baseSearch);
 	return baseSearch.treasure == 1;
 }
 
@@ -136,7 +135,7 @@ bool countTreasure2(){
 }
 
 bool countTreasure3(){
-	int maxTreasure = 2;
+	double maxTreasure = 2;
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
 	return countTreasure(house, baseSearch) == 1+3;

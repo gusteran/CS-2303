@@ -9,6 +9,7 @@
 #define ROOM_H_
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 typedef struct {
 	int roomNum;

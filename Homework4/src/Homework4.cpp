@@ -19,6 +19,8 @@
 
 
 int main(int argc, char* argv[]) {
+	FILE *outputP = fopen("output.txt", "w");
+	fclose(outputP);
 	if(tests())
 	{
 		puts("Tests Passed!");

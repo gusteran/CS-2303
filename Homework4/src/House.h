@@ -20,7 +20,7 @@ Layout* accessibleLayouts(House house, Layout *layouts);
 
 int numAccessibleLayouts(House house);
 
-Search searchInLayouts(Layout layout, Search search);
+void searchInLayouts(Layout layout, Search *search);
 
 
 #endif /* HOUSE_H_ */
