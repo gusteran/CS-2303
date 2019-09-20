@@ -55,7 +55,7 @@ void searchInLayouts(Layout layout, Search *search) {
 	rooms = accessibleRooms(layout, rooms);
 	for (int count = 0;count < numRooms && search->nRoomSearched < search->maxRooms && search->treasure < search->maxTreasure; count++) {
 		search->treasure += rooms[count].treasure;
-		fprintf(outputP, "In room %d, we have found %f pieces of treasure\n", rooms[count].roomNum, search->treasure);
+		fprintf(outputP, "In room %d, we have found %.1f pieces of treasure\n", rooms[count].roomNum, search->treasure);
 		search->roomsSearched[search->nRoomSearched++] = rooms[count];
 	}
 	printf("We have searched: ");
@@ -66,7 +66,7 @@ void searchInLayouts(Layout layout, Search *search) {
 	}
 	fprintf(outputP,"\n");
 	fclose(outputP);
-	printf("\nAnd we have found %f pieces of treasure in this Layout\n\n",
+	printf("\nAnd we have found %.1f pieces of treasure in this Layout\n\n",
 			search->treasure - pastTreasure);
 }
 

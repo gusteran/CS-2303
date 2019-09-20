@@ -12,6 +12,6 @@
 
 void searchForTreasure(House house, Search *search);
 
-double countTreasure(House house, Search search);
+float countTreasure(House house, Search search);
 
 #endif /* SEARCH_H_ */

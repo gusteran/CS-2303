@@ -10,10 +10,10 @@
 bool production(int argc, char *argv[]) {
 //	int FILENAMELENGTHALLOWANCE = 100;
 	bool answer = false;
-	double treasure = 0;
+	float treasure = 0;
 	int maxRooms = 100;
 	int nRooms = 0;
-	double maxTreasure = 100;
+	float maxTreasure = 100;
 	char *eptr;
 	if (argc <= 2) //no interesting information
 			{
@@ -25,7 +25,7 @@ bool production(int argc, char *argv[]) {
 		fflush(stdin);
 		printf("What is the maximum amount of treasure to be searched for? ");
 		fflush(stdout);
-		scanf("%d", &maxTreasure);
+		scanf("%f", &maxTreasure);
 	} else //there is interesting information
 	{
 		for (int i = 1; i < argc; i++) {
@@ -97,6 +97,6 @@ bool production(int argc, char *argv[]) {
 	int **layoutGraphP = new int*[1];
 	layoutGraphP[0] = layoutGraph[0];
 	House house = { 1, layouts, layoutGraphP };
-	printf("Count treasure = %f", countTreasure(house, search));
+	printf("Count treasure = %.1f", countTreasure(house, search));
 	return answer;
 }

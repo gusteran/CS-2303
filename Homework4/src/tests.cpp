@@ -66,8 +66,8 @@ void initialize(){
 
 }
 
-double treasure = 0;
-double maxTreasure = 10;
+float treasure = 0;
+float maxTreasure = 10;
 int nRooms = 0;
 int maxRooms = 20;
 
@@ -135,7 +135,7 @@ bool countTreasure2(){
 }
 
 bool countTreasure3(){
-	double maxTreasure = 2;
+	float maxTreasure = 2;
 	Room roomsSearched[maxRooms];
 	Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
 	return countTreasure(house, baseSearch) == 1+3;

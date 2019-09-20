@@ -19,8 +19,8 @@ typedef struct {
 
 
 typedef struct {
-	int treasure;
-	int maxTreasure;
+	float treasure;
+	float maxTreasure;
 	int nRoomSearched;
 	int maxRooms;
 	Room *roomsSearched; //define as array of size maxRooms

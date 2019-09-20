@@ -12,12 +12,24 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Tue, 17 Sep 2019 17:48:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 20 Sep 2019 04:27:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	
 	<item>
+		<title>CodeMix 2019.9.19 &#8211; It&#8217;s Go Time!</title>
+		<link>https://www.genuitec.com/codemix-2019-9-19/</link>
+		<pubDate>Thu, 19 Sep 2019 16:01:24 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[codemix]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=625180</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/codemix-2019-9-19/">CodeMix 2019.9.19 &#8211; It&#8217;s Go Time!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
 		<title>CodeMix 2019.8.21 Performance Update</title>
 		<link>https://www.genuitec.com/codemix-2019-8-21-performance-update/</link>
 		<pubDate>Fri, 23 Aug 2019 13:13:46 +0000</pubDate>
@@ -215,17 +227,6 @@
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/angular-7-uploads-node-js/">Angular 7 Uploads Backed by Node.js</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
-		<item>
-		<title>Benchmarking JavaScript: STS, Red Hat Dev Studio &#038; CodeMix</title>
-		<link>https://www.genuitec.com/benchmarking-javascript-sts-red-hat-dev-studio-codemix/</link>
-		<pubDate>Tue, 19 Mar 2019 22:51:47 +0000</pubDate>
-		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
-				<category><![CDATA[Genuitec]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=611210</guid>
-		<description><![CDATA[<p>The post <a rel="nofollow" href="https://www.genuitec.com/benchmarking-javascript-sts-red-hat-dev-studio-codemix/">Benchmarking JavaScript: STS, Red Hat Dev Studio &#038; CodeMix</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
 	</channel>
 </rss>
 
@@ -234,5 +235,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Content Delivery Network via resources.cloud.genuitec.com
 
-Served from: www.genuitec.com @ 2019-09-17 13:58:53 by W3 Total Cache
+Served from: www.genuitec.com @ 2019-09-20 02:11:19 by W3 Total Cache
 -->

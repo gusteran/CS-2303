@@ -20,10 +20,10 @@ void searchForTreasure(House house, Search *search) {
 		printRoomName(search->roomsSearched[countRooms]);
 		if(countRooms+1<search->nRoomSearched) printf(", ");
 	}
-	printf("\nAnd we have found %f pieces of treasure in this House\n\n", search->treasure);
+	printf("\nAnd we have found %.1f pieces of treasure in this House\n\n", search->treasure);
 }
 
-double countTreasure(House house, Search search){
+float countTreasure(House house, Search search){
 	searchForTreasure(house, &search);
 	return search.treasure;
 }

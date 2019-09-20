@@ -3047,3 +3047,145 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
 g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
 Info: Nothing to build for Homework4
+12:10:54 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:11:15 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:11:51 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:13:55 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:14:18 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:14:34 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:14:53 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%f' expects argument of type 'float*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%f", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
+12:16:26 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\House.o" "..\\src\\House.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%f' expects argument of type 'float*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%f", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:62:75: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+                                                                           ^
+..\src\production.cpp:62:75: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Layout.o" "..\\src\\Layout.cpp" 
+..\src\Layout.cpp: In function 'void printGraph(Layout)':
+..\src\Layout.cpp:54:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int*' [-Wformat=]
+    printf("%d\n", layout.roomGraph[i * layout.nRooms + j]);
+           ^~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasureLayouts1()':
+..\src\tests.cpp:91:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:91:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasureLayouts2()':
+..\src\tests.cpp:111:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:111:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure1()':
+..\src\tests.cpp:118:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:118:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasureLayouts3()':
+..\src\tests.cpp:125:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:125:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure2()':
+..\src\tests.cpp:133:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:133:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+..\src\tests.cpp: In function 'bool countTreasure3()':
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Room.o" "..\\src\\Room.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:16:44 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasure3()':
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:17:09 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp: In function 'bool countTreasure3()':
+..\src\tests.cpp:140:77: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search baseSearch = {treasure, maxTreasure, nRooms, maxRooms, roomsSearched};
+                                                                             ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework4.o" "..\\src\\Homework4.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:28:9: warning: format '%f' expects argument of type 'float*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%f", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'double*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+..\src\production.cpp:62:75: warning: narrowing conversion of 'treasure' from 'double' to 'float' inside { } [-Wnarrowing]
+  Search search = { treasure, maxTreasure, nRooms, maxRooms, roomsSearched };
+                                                                           ^
+..\src\production.cpp:62:75: warning: narrowing conversion of 'maxTreasure' from 'double' to 'float' inside { } [-Wnarrowing]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Search.o" "..\\src\\Search.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:17:31 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+..\src\production.cpp: In function 'bool production(int, char**)':
+..\src\production.cpp:57:9: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'float*' [-Wformat=]
+   scanf("%d", &maxTreasure);
+         ^~~~  ~~~~~~~~~~~~
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+12:17:45 **** Incremental Build of configuration Debug for project Homework4 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework4.exe "src\\Homework4.o" "src\\House.o" "src\\Layout.o" "src\\Room.o" "src\\Search.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework4
