@@ -12,12 +12,26 @@
 	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.genuitec.com</link>
 	<description>The Cloud Control Company</description>
-	<lastBuildDate>Fri, 20 Sep 2019 04:27:05 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 28 Sep 2019 04:11:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	
 	<item>
+		<title>React Native Authentication with Facebook</title>
+		<link>https://www.genuitec.com/react-native-authentication-with-facebook/</link>
+		<pubDate>Thu, 26 Sep 2019 20:05:49 +0000</pubDate>
+		<dc:creator><![CDATA[dunebook7]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[codemix]]></category>
+		<category><![CDATA[react native]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=623558</guid>
+		<description><![CDATA[<p>Learn how to create a simple React Native app that uses Facebook for authentication. We use CodeMix for development and the Expo toolchain to make this possible without needing XCode or Android Studio. Check out our newest Blog and see how it's done!</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/react-native-authentication-with-facebook/">React Native Authentication with Facebook</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
 		<title>CodeMix 2019.9.19 &#8211; It&#8217;s Go Time!</title>
 		<link>https://www.genuitec.com/codemix-2019-9-19/</link>
 		<pubDate>Thu, 19 Sep 2019 16:01:24 +0000</pubDate>
@@ -210,23 +224,6 @@
 <p>The post <a rel="nofollow" href="https://www.genuitec.com/myeclipse-2019-4-0-is-here-java-11-and-more/">MyEclipse 2019.4.0 Is Here &#8211; Java 11 and More</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
 ]]></description>
 		</item>
-		<item>
-		<title>Angular 7 Uploads Backed by Node.js</title>
-		<link>https://www.genuitec.com/angular-7-uploads-node-js/</link>
-		<pubDate>Tue, 02 Apr 2019 13:42:03 +0000</pubDate>
-		<dc:creator><![CDATA[dunebook7]]></dc:creator>
-				<category><![CDATA[Eclipse]]></category>
-		<category><![CDATA[Programming Tips]]></category>
-		<category><![CDATA[Webclipse]]></category>
-		<category><![CDATA[Angular]]></category>
-		<category><![CDATA[Angular uploads]]></category>
-		<category><![CDATA[node.js]]></category>
-
-		<guid isPermaLink="false">https://www.genuitec.com/?p=611558</guid>
-		<description><![CDATA[<p>Web development has become more dynamic with time, mostly due to the continued development of various languages, tools, and frameworks, one of them being Angular. The recent release of Angular 7 comes with new features, such as virtual scrolling, drag and drop, and some CLI updates, among others.In this article, we will be building an [&#8230;]</p>
-<p>The post <a rel="nofollow" href="https://www.genuitec.com/angular-7-uploads-node-js/">Angular 7 Uploads Backed by Node.js</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
-]]></description>
-		</item>
 	</channel>
 </rss>
 
@@ -235,5 +232,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/pro
 
 Content Delivery Network via resources.cloud.genuitec.com
 
-Served from: www.genuitec.com @ 2019-09-20 02:11:19 by W3 Total Cache
+Served from: www.genuitec.com @ 2019-09-29 14:11:50 by W3 Total Cache
 -->
