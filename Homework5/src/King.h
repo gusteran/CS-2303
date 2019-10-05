@@ -14,8 +14,8 @@ public:
 	King(Checker checker);
 	King(int team);
 	~King();
-	string toString();
-	Path possibleMoves(Location location);
+	string toString() override;
+	Path possibleMoves(Location location) override;
 };
 
 #endif /* KING_H_ */

@@ -8,7 +8,7 @@
 #ifndef BOARD_H_
 #define BOARD_H_
 #define ROWS 8
-#define COLS 10
+#define COLS 8
 #include "Checker.h"
 #include "King.h"
 #include <stdio.h>
@@ -19,12 +19,13 @@
 
 class Board {
 private:
-Checker board[ROWS][COLS];
+Checker *board[ROWS][COLS];
 public:
 Board();
 Board(Checker board[ROWS][COLS]);
 ~Board();
 void printBoard();
+void filePrintBoard();
 bool isValid(Location location);
 bool isEmpty(Location location);
 int getTeam(Location location);

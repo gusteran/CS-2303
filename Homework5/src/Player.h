@@ -17,7 +17,7 @@ private:
 public:
 	Player(int team);
 	vector<Path>legalMoves(Board *board);
-	void randomMove(Board *board);
+	bool randomMove(Board *board);
 };
 
 #endif /* PLAYER_H_ */

@@ -20,12 +20,12 @@ King::~King(){
 	delete &team;
 }
 
-string King::toString() {
+string King::toString(){
 	switch(team){
 	case RED:
-		return ("r");
+		return "R";
 	case BLACK:
-		return ("b");
+		return "B";
 	case EMPTY:
 		return "_";
 	case NOT:

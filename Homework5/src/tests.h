@@ -15,5 +15,13 @@ bool canPrintTest();
 bool movePieceTest();
 bool possibleLocationsTest();
 bool randMoveTest1();
+bool isValid1();
+bool isValid2();
+bool isValid3();
+bool isEmpty1();
+bool isEmpty2();
+bool isEmpty3();
+bool kingTest();
+
 
 #endif /* TESTS_H_ */

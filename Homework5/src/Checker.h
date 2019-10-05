@@ -34,10 +34,10 @@ protected:
 public:
 	Checker();
 	Checker(int team);
-	~Checker();
-	string toString();
+	virtual ~Checker();
+	virtual string toString();
 	int getTeam();
-	Path possibleMoves(Location location);
+	virtual Path possibleMoves(Location location);
 };
 
 

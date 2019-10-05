@@ -26,9 +26,9 @@ int Checker::getTeam() {
 string Checker::toString() {
 	switch (team) {
 	case RED:
-		return ("r");
+		return "r";
 	case BLACK:
-		return ("b");
+		return "b";
 	case EMPTY:
 		return "_";
 	case NOT:

@@ -8,18 +8,18 @@
 
 #include <iostream>
 #include "tests.h"
+#include "production.h"
 using namespace std;
 
-int main() {
-	if(tests())
-		{
-			puts("Tests Passed!");
-//			production(argc, argv);
-		}
-		else
-		{
-			 puts("Tests did not pass.");
-		}
-		return EXIT_SUCCESS;
+int main(int argc, char *argv[]) {
+	FILE *outputP = fopen("output.txt", "w");
+	fclose(outputP);
+	if (tests()) {
+		puts("Tests Passed!");
+		production(argc, argv);
+	} else {
+		puts("Tests did not pass.");
+	}
+	return EXIT_SUCCESS;
 }
 

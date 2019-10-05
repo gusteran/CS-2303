@@ -12,6 +12,8 @@ Player::Player(int team) {
 }
 
 vector<Path> Player::legalMoves(Board *board) {
+	FILE *outputP = fopen("output.txt", "r+");
+	fseek(outputP, 0L, SEEK_END);
 	vector<Path> moves;
 	for (int row = 0; row < ROWS; row++) {
 		for (int col = 0; col < COLS; col++) {
@@ -19,20 +21,33 @@ vector<Path> Player::legalMoves(Board *board) {
 				Path path = board->possibleMoves( { row, col });
 				if (path.nextLocations.size() > 0)
 					moves.push_back(path);
-				printf("Row: %d Col: %d Team:%d\t", row, col, board->getTeam( { row, col }));
-				if (board->possibleMoves( { row, col }).nextLocations.size() > 0)
-					printf("Next Loc Row: %d Col %d\n", board->possibleMoves( { row, col }).nextLocations.at(0).row,
-							board->possibleMoves( { row, col }).nextLocations.at(0).col);
-				else
-					printf("\n");
+				if (board->possibleMoves( { row, col }).nextLocations.size() > 0
+						|| board->possibleMoves( { row, col }).jumps.size() > 0) {
+					fprintf(outputP, "From Row: %d Col: %d\t", row, col);
+					int posSize = board->possibleMoves( { row, col }).nextLocations.size();
+					for (int i = 0; i < posSize; i++) {
+						fprintf(outputP, "Possible move to Row: %d Col: %d\t",
+								board->possibleMoves( { row, col }).nextLocations.at(i).row, board->possibleMoves( {
+										row, col }).nextLocations.at(i).row);
+					}
+					int jumpSize = board->possibleMoves( { row, col }).jumps.size();
+					for (int i = 0; i < jumpSize; i++) {
+						fprintf(outputP, "Possible jump to Row: %d Col: %d\t",
+								board->possibleMoves( { row, col }).jumps.at(i).row,
+								board->possibleMoves( { row, col }).jumps.at(i).row);
+					}
+					fprintf(outputP, "\n");
+				}
 			}
 		}
 	}
-//	printf("Num Paths: %d\n", moves.size());
+	fclose(outputP);
 	return moves;
 }
 
-void Player::randomMove(Board *board) {
+bool Player::randomMove(Board *board) {
+	FILE *outputP = fopen("output.txt", "r+");
+	fseek(outputP, 0L, SEEK_END);
 	vector<Path> possible = legalMoves(board);
 	vector<Path> canJump;
 	for (int i = 0; i < possible.size(); i++) {
@@ -43,13 +58,20 @@ void Player::randomMove(Board *board) {
 		int moveNum = rand() % canJump.size();
 		Path move = canJump.at(moveNum);
 		board->randomJump(move);
-	} else {
+	} else  if (possible.size()>0){
 		int moveNum = rand() % possible.size();
 		Path move = possible.at(moveNum);
 		board->randomMove(move);
+	} else {
+		if(team == BLACK){
+			printf("Red Wins\n");
+			fprintf(outputP,"Red Wins\n");
+		} else {
+			printf("Black Wins\n");
+			fprintf(outputP,"Black Wins\n");
+		}
+		return false;
 	}
-//	printf("Row: %d Col: %d\t", move.location.row, move.location.col);
-//	printf("Next Loc Row: %d Col %d\n", .nextLocations.at(0).row,
-//			board->possibleMoves( { row, col }).nextLocations.at(0).col);
-
+	fclose(outputP);
+	return true;
 }
