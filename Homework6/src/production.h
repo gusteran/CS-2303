@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include "Game.h"
 
 bool production(int argc, char* argv[]);
 

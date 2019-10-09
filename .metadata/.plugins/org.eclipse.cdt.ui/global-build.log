@@ -23,3 +23,1493 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cp
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
 g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+16:10:09 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:11:14: error: expected type-specifier before '*' token
+  ships = new *Ship[5];
+              ^
+..\src\Board.cpp:11:19: error: expected primary-expression before '[' token
+  ships = new *Ship[5];
+                   ^
+..\src\Board.cpp:12:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[0] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:13:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[1] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:14:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[2] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:15:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[3] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:16:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[4] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp: In member function 'void Board::printBoard()':
+..\src\Board.cpp:35:40: error: base operand of '->' has non-pointer type 'Ship'
+     printf("%c", ships[board[row][col]]->toChar());
+                                        ^~
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:56:42: error: base operand of '->' is not a pointer
+    fprintf(outputP, "%c", board[row][col]->toString().at(0));
+                                          ^~
+16:10:25 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:12:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[0] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:13:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[1] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:14:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[2] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:15:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[3] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:16:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[4] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp: In member function 'void Board::printBoard()':
+..\src\Board.cpp:35:40: error: base operand of '->' has non-pointer type 'Ship'
+     printf("%c", ships[board[row][col]]->toChar());
+                                        ^~
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:56:42: error: base operand of '->' is not a pointer
+    fprintf(outputP, "%c", board[row][col]->toString().at(0));
+                                          ^~
+16:13:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:12:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[0] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:13:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[1] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:14:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[2] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:15:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[3] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp:16:23: error: no match for 'operator=' (operand types are 'Ship' and 'Ship*')
+  ships[4] =  new Ship();
+                       ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'const Ship&'
+..\src\Ship.h:16:7: note: candidate: 'constexpr Ship& Ship::operator=(Ship&&)'
+..\src\Ship.h:16:7: note:   no known conversion for argument 1 from 'Ship*' to 'Ship&&'
+..\src\Board.cpp: In member function 'void Board::printBoard()':
+..\src\Board.cpp:35:40: error: base operand of '->' has non-pointer type 'Ship'
+     printf("%c", ships[board[row][col]]->toChar());
+                                        ^~
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:56:42: error: base operand of '->' is not a pointer
+    fprintf(outputP, "%c", board[row][col]->toString().at(0));
+                                          ^~
+16:14:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:55:42: error: base operand of '->' is not a pointer
+    fprintf(outputP, "%c", board[row][col]->toString().at(0));
+                                          ^~
+16:14:08 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:55:42: error: base operand of '->' is not a pointer
+    fprintf(outputP, "%c", board[row][col]->toString().at(0));
+                                          ^~
+16:15:33 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Board.o: in function `ZN5BoardC2Ev':
+C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Board.cpp:11: undefined reference to `Ship::Ship()'
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Board.cpp:12: undefined reference to `Ship::Ship()'
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Board.cpp:13: undefined reference to `Ship::Ship()'
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Board.cpp:14: undefined reference to `Ship::Ship()'
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Board.cpp:15: undefined reference to `Ship::Ship()'
+collect2.exe: error: ld returned 1 exit status
+16:16:03 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o: in function `ZN4ShipC2Ev':
+C:\Users\gustt\Desktop\Coding\CS-2303\Homework6\Debug/../src/Ship.cpp:10: undefined reference to `vtable for Ship'
+collect2.exe: error: ld returned 1 exit status
+16:17:30 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp:14:1: error: 'virtual' outside class declaration
+ virtual Ship::~Ship(){
+ ^~~~~~~
+16:17:40 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+16:18:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+16:18:26 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+16:20:04 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CommandLine
+Info: Nothing to build for GameOfLife
+Info: Nothing to build for Homework1
+Info: Nothing to build for Homework2
+Info: Nothing to build for Homework3
+Info: Nothing to build for Homework4
+Info: Nothing to build for Homework5
+16:20:57 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Spreadsheet
+Info: Nothing to build for fopen
+16:21:15 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\Ship.o:Ship.cpp:(.rdata$_ZTV4Ship[__ZTV4Ship]+0x10): undefined reference to `Ship::getLength()'
+collect2.exe: error: ld returned 1 exit status
+16:22:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship()':
+..\src\Ship.cpp:10:1: error: uninitialized const member in 'const int' [-fpermissive]
+ Ship::Ship(){
+ ^~~~
+In file included from ..\src\Ship.cpp:8:
+..\src\Ship.h:18:12: note: 'const int Ship::length' should be initialized
+  const int length;
+            ^~~~~~
+..\src\Ship.cpp:11:11: error: assignment of read-only member 'Ship::length'
+  length = 0;
+           ^
+16:22:55 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+16:24:24 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+..\src\AircraftCarrier.cpp: In constructor 'AircraftCarrier::AircraftCarrier()':
+..\src\AircraftCarrier.cpp:11:2: error: 'int Ship::length' is private within this context
+  length = 5;
+  ^~~~~~
+In file included from ..\src\AircraftCarrier.h:10,
+                 from ..\src\AircraftCarrier.cpp:8:
+..\src\Ship.h:18:6: note: declared private here
+  int length;
+      ^~~~~~
+..\src\AircraftCarrier.cpp: In member function 'virtual int AircraftCarrier::getLength()':
+..\src\AircraftCarrier.cpp:15:9: error: 'int Ship::length' is private within this context
+  return length;
+         ^~~~~~
+In file included from ..\src\AircraftCarrier.h:10,
+                 from ..\src\AircraftCarrier.cpp:8:
+..\src\Ship.h:18:6: note: declared private here
+  int length;
+      ^~~~~~
+16:24:48 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:02:48 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:06:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:12:54 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:11:33: error: use of deleted function 'AircraftCarrier::AircraftCarrier()'
+  ships[0] = new AircraftCarrier();
+                                 ^
+In file included from ..\src\Board.h:11,
+                 from ..\src\Board.cpp:8:
+..\src\AircraftCarrier.h:12:7: note: 'AircraftCarrier::AircraftCarrier()' is implicitly deleted because the default definition would be ill-formed:
+ class AircraftCarrier: public Ship {
+       ^~~~~~~~~~~~~~~
+..\src\AircraftCarrier.h:12:7: error: no matching function for call to 'Ship::Ship()'
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+..\src\Board.cpp:12:28: error: use of deleted function 'Battleship::Battleship()'
+  ships[1] = new Battleship();
+                            ^
+In file included from ..\src\Board.h:12,
+                 from ..\src\Board.cpp:8:
+..\src\Battleship.h:12:7: note: 'Battleship::Battleship()' is implicitly deleted because the default definition would be ill-formed:
+ class Battleship: public Ship {
+       ^~~~~~~~~~
+..\src\Battleship.h:12:7: error: no matching function for call to 'Ship::Ship()'
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+..\src\Board.cpp:13:25: error: use of deleted function 'Cruiser::Cruiser()'
+  ships[2] = new Cruiser();
+                         ^
+In file included from ..\src\Board.h:13,
+                 from ..\src\Board.cpp:8:
+..\src\Cruiser.h:12:7: note: 'Cruiser::Cruiser()' is implicitly deleted because the default definition would be ill-formed:
+ class Cruiser: public Ship {
+       ^~~~~~~
+..\src\Cruiser.h:12:7: error: no matching function for call to 'Ship::Ship()'
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+..\src\Board.cpp:14:27: error: use of deleted function 'Destroyer::Destroyer()'
+  ships[3] = new Destroyer();
+                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: 'Destroyer::Destroyer()' is implicitly deleted because the default definition would be ill-formed:
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: error: no matching function for call to 'Ship::Ship()'
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+..\src\Board.cpp:15:27: error: use of deleted function 'Submarine::Submarine()'
+  ships[4] = new Submarine();
+                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: 'Submarine::Submarine()' is implicitly deleted because the default definition would be ill-formed:
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: error: no matching function for call to 'Ship::Ship()'
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+15:13:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:11:49: error: no matching function for call to 'AircraftCarrier::AircraftCarrier(int, int, int)'
+  ships[0] = new AircraftCarrier(0, 0, HORIZONTAL);
+                                                 ^
+In file included from ..\src\Board.h:11,
+                 from ..\src\Board.cpp:8:
+..\src\AircraftCarrier.h:12:7: note: candidate: 'constexpr AircraftCarrier::AircraftCarrier(const AircraftCarrier&)'
+ class AircraftCarrier: public Ship {
+       ^~~~~~~~~~~~~~~
+..\src\AircraftCarrier.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\AircraftCarrier.h:12:7: note: candidate: 'constexpr AircraftCarrier::AircraftCarrier(AircraftCarrier&&)'
+..\src\AircraftCarrier.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:12:44: error: no matching function for call to 'Battleship::Battleship(int, int, int)'
+  ships[1] = new Battleship(2, 0, HORIZONTAL);
+                                            ^
+In file included from ..\src\Board.h:12,
+                 from ..\src\Board.cpp:8:
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(const Battleship&)'
+ class Battleship: public Ship {
+       ^~~~~~~~~~
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(Battleship&&)'
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:13:41: error: no matching function for call to 'Cruiser::Cruiser(int, int, int)'
+  ships[2] = new Cruiser(4, 0, HORIZONTAL);
+                                         ^
+In file included from ..\src\Board.h:13,
+                 from ..\src\Board.cpp:8:
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(const Cruiser&)'
+ class Cruiser: public Ship {
+       ^~~~~~~
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(Cruiser&&)'
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:14:43: error: no matching function for call to 'Destroyer::Destroyer(int, int, int)'
+  ships[3] = new Destroyer(6, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(const Destroyer&)'
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(Destroyer&&)'
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:15:43: error: no matching function for call to 'Submarine::Submarine(int, int, int)'
+  ships[4] = new Submarine(8, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(const Submarine&)'
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(Submarine&&)'
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+15:14:45 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+..\src\AircraftCarrier.cpp: In constructor 'AircraftCarrier::AircraftCarrier(int, int, int)':
+..\src\AircraftCarrier.cpp:10:65: error: no matching function for call to 'Ship::Ship()'
+ AircraftCarrier::AircraftCarrier(int row, int col, int direction){
+                                                                 ^
+In file included from ..\src\AircraftCarrier.h:10,
+                 from ..\src\AircraftCarrier.cpp:8:
+..\src\Ship.h:26:2: note: candidate: 'Ship::Ship(int, int, int)'
+  Ship(int row, int col, int direction);
+  ^~~~
+..\src\Ship.h:26:2: note:   candidate expects 3 arguments, 0 provided
+..\src\Ship.h:19:7: note: candidate: 'constexpr Ship::Ship(const Ship&)'
+ class Ship {
+       ^~~~
+..\src\Ship.h:19:7: note:   candidate expects 1 argument, 0 provided
+15:15:21 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:12:44: error: no matching function for call to 'Battleship::Battleship(int, int, int)'
+  ships[1] = new Battleship(2, 0, HORIZONTAL);
+                                            ^
+In file included from ..\src\Board.h:12,
+                 from ..\src\Board.cpp:8:
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(const Battleship&)'
+ class Battleship: public Ship {
+       ^~~~~~~~~~
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(Battleship&&)'
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:13:41: error: no matching function for call to 'Cruiser::Cruiser(int, int, int)'
+  ships[2] = new Cruiser(4, 0, HORIZONTAL);
+                                         ^
+In file included from ..\src\Board.h:13,
+                 from ..\src\Board.cpp:8:
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(const Cruiser&)'
+ class Cruiser: public Ship {
+       ^~~~~~~
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(Cruiser&&)'
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:14:43: error: no matching function for call to 'Destroyer::Destroyer(int, int, int)'
+  ships[3] = new Destroyer(6, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(const Destroyer&)'
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(Destroyer&&)'
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:15:43: error: no matching function for call to 'Submarine::Submarine(int, int, int)'
+  ships[4] = new Submarine(8, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(const Submarine&)'
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(Submarine&&)'
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+15:15:32 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:12:44: error: no matching function for call to 'Battleship::Battleship(int, int, int)'
+  ships[1] = new Battleship(2, 0, HORIZONTAL);
+                                            ^
+In file included from ..\src\Board.h:12,
+                 from ..\src\Board.cpp:8:
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(const Battleship&)'
+ class Battleship: public Ship {
+       ^~~~~~~~~~
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Battleship.h:12:7: note: candidate: 'constexpr Battleship::Battleship(Battleship&&)'
+..\src\Battleship.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:13:41: error: no matching function for call to 'Cruiser::Cruiser(int, int, int)'
+  ships[2] = new Cruiser(4, 0, HORIZONTAL);
+                                         ^
+In file included from ..\src\Board.h:13,
+                 from ..\src\Board.cpp:8:
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(const Cruiser&)'
+ class Cruiser: public Ship {
+       ^~~~~~~
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(Cruiser&&)'
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:14:43: error: no matching function for call to 'Destroyer::Destroyer(int, int, int)'
+  ships[3] = new Destroyer(6, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(const Destroyer&)'
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(Destroyer&&)'
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:15:43: error: no matching function for call to 'Submarine::Submarine(int, int, int)'
+  ships[4] = new Submarine(8, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(const Submarine&)'
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(Submarine&&)'
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+15:16:50 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+..\src\Battleship.cpp: In constructor 'Battleship::Battleship(int, int, int)':
+..\src\Battleship.cpp:11:11: error: assignment of read-only member 'Battleship::length'
+  length = 4;
+           ^
+15:17:20 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:13:41: error: no matching function for call to 'Cruiser::Cruiser(int, int, int)'
+  ships[2] = new Cruiser(4, 0, HORIZONTAL);
+                                         ^
+In file included from ..\src\Board.h:13,
+                 from ..\src\Board.cpp:8:
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(const Cruiser&)'
+ class Cruiser: public Ship {
+       ^~~~~~~
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Cruiser.h:12:7: note: candidate: 'constexpr Cruiser::Cruiser(Cruiser&&)'
+..\src\Cruiser.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:14:43: error: no matching function for call to 'Destroyer::Destroyer(int, int, int)'
+  ships[3] = new Destroyer(6, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(const Destroyer&)'
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(Destroyer&&)'
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:15:43: error: no matching function for call to 'Submarine::Submarine(int, int, int)'
+  ships[4] = new Submarine(8, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(const Submarine&)'
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(Submarine&&)'
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+15:18:27 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board()':
+..\src\Board.cpp:14:43: error: no matching function for call to 'Destroyer::Destroyer(int, int, int)'
+  ships[3] = new Destroyer(6, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:14,
+                 from ..\src\Board.cpp:8:
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(const Destroyer&)'
+ class Destroyer: public Ship{
+       ^~~~~~~~~
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Destroyer.h:12:7: note: candidate: 'constexpr Destroyer::Destroyer(Destroyer&&)'
+..\src\Destroyer.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Board.cpp:15:43: error: no matching function for call to 'Submarine::Submarine(int, int, int)'
+  ships[4] = new Submarine(8, 0, HORIZONTAL);
+                                           ^
+In file included from ..\src\Board.h:15,
+                 from ..\src\Board.cpp:8:
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(const Submarine&)'
+ class Submarine: public Ship {
+       ^~~~~~~~~
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+..\src\Submarine.h:12:7: note: candidate: 'constexpr Submarine::Submarine(Submarine&&)'
+..\src\Submarine.h:12:7: note:   candidate expects 1 argument, 3 provided
+15:20:37 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:24:38 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:25:41 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:29:55 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In member function 'void Board::printBoard()':
+..\src\Board.cpp:51:49: error: no matching function for call to 'Ship::toChar()'
+     printf("%c", ships[board[row][col]]->toChar());
+                                                 ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:30:15: note: candidate: 'virtual char Ship::toChar(int, int)'
+  virtual char toChar(int row, int col);
+               ^~~~~~
+..\src\Ship.h:30:15: note:   candidate expects 2 arguments, 0 provided
+..\src\Board.cpp: In member function 'void Board::filePrintBoard()':
+..\src\Board.cpp:73:59: error: no matching function for call to 'Ship::toChar()'
+     fprintf(outputP, "%c", ships[board[row][col]]->toChar());
+                                                           ^
+In file included from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+..\src\Ship.h:30:15: note: candidate: 'virtual char Ship::toChar(int, int)'
+  virtual char toChar(int row, int col);
+               ^~~~~~
+..\src\Ship.h:30:15: note:   candidate expects 2 arguments, 0 provided
+15:30:24 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship(int, int, int)':
+..\src\Ship.cpp:16:11: error: incompatible types in assignment of 'bool' to 'bool [5]'
+   isHit = false;
+           ^~~~~
+15:30:49 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:35:04 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship(int, int, int)':
+..\src\Ship.cpp:16:10: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+   isHit[i] = false;
+          ^
+..\src\Ship.cpp: In member function 'bool Ship::isHit(int, int)':
+..\src\Ship.cpp:32:48: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+  return isHit[row - this->row + col - this->col];
+                                                ^
+15:35:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship(int, int, int)':
+..\src\Ship.cpp:16:10: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+   isHit[i] = false;
+          ^
+..\src\Ship.cpp: In member function 'bool Ship::isHit(int, int)':
+..\src\Ship.cpp:33:18: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+  return isHit[num];
+                  ^
+15:35:46 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship(int, int, int)':
+..\src\Ship.cpp:16:10: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+   isHit[i] = false;
+          ^
+15:36:00 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+..\src\Ship.cpp: In constructor 'Ship::Ship(int, int, int)':
+..\src\Ship.cpp:16:10: error: invalid types '<unresolved overloaded function type>[int]' for array subscript
+   isHit[i] = false;
+          ^
+15:36:25 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+15:40:03 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+15:40:35 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+18:40:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+18:54:08 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+19:34:09 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+19:35:17 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+19:36:44 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:15:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:15:27 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:19:04 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In member function 'bool Board::shot(int, int)':
+..\src\Board.cpp:38:20: error: cannot convert 'Board::isValid' from type 'bool (Board::)(int, int)' to type 'bool'
+  } else if (isValid) {
+                    ^
+20:19:26 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:19:46 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:20:02 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+20:25:48 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:25:57 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+20:27:00 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+21:08:56 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+In file included from ..\src\Battleship.h:10,
+                 from ..\src\Battleship.cpp:8:
+..\src\Ship.h:36:27: error: expected ';' at end of member declaration
+  bool hit(int row, int col)
+                           ^
+                            ;
+22:11:22 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+In file included from ..\src\Board.h:10,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\Ship.h:37:27: error: expected ';' at end of member declaration
+  bool hit(int row, int col)
+                           ^
+                            ;
+..\src\tests.cpp: In function 'bool randPlaceTest()':
+..\src\tests.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+22:11:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+In file included from ..\src\Board.h:10,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+..\src\Ship.h:37:27: error: expected ';' at end of member declaration
+  bool hit(int row, int col)
+                           ^
+                            ;
+22:11:57 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+22:12:52 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp:60:1: error: expected declaration before '}' token
+ }
+ ^
+22:13:04 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Homework6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:13:15 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:13:55 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:14:16 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:14:28 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:14:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:15:45 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:15:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:41:6: warning: unused variable 'numSet' [-Wunused-variable]
+  int numSet = 0;
+      ^~~~~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:16:15 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp:23:8: error: 'Board* rand' redeclared as different kind of symbol
+ Board *rand = new Board(false);
+        ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\cstdlib:75,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\stdlib.h:36,
+                 from ..\src\Ship.h:12,
+                 from ..\src\Board.h:10,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+c:\mingw\include\stdlib.h:481:38: note: previous declaration 'int rand()'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int rand (void);
+                                      ^~~~
+..\src\tests.cpp: In function 'bool randPlaceTest()':
+..\src\tests.cpp:27:8: error: request for member 'printBoard' in '* rand', which is of non-class type 'int()'
+  rand->printBoard(true);
+        ^~~~~~~~~~
+22:17:18 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp:23:8: error: 'Board* rand' redeclared as different kind of symbol
+ Board *rand = new Board(false);
+        ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\cstdlib:75,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\stdlib.h:36,
+                 from ..\src\Ship.h:12,
+                 from ..\src\Board.h:10,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+c:\mingw\include\stdlib.h:481:38: note: previous declaration 'int rand()'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int rand (void);
+                                      ^~~~
+..\src\tests.cpp: In function 'bool randPlaceTest()':
+..\src\tests.cpp:27:8: error: request for member 'printBoard' in '* rand', which is of non-class type 'int()'
+  rand->printBoard(true);
+        ^~~~~~~~~~
+22:17:35 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:17:46 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+..\src\tests.cpp:23:8: error: 'Board* rand' redeclared as different kind of symbol
+ Board *rand = new Board(false);
+        ^~~~
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\cstdlib:75,
+                 from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\stdlib.h:36,
+                 from ..\src\Ship.h:12,
+                 from ..\src\Board.h:10,
+                 from ..\src\tests.h:10,
+                 from ..\src\tests.cpp:8:
+c:\mingw\include\stdlib.h:481:38: note: previous declaration 'int rand()'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int rand (void);
+                                      ^~~~
+22:17:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:18:09 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:18:32 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:36:19: error: lvalue required as left operand of assignment
+  this = new Board();
+                   ^
+22:18:40 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:36:15: error: lvalue required as left operand of assignment
+  this = Board();
+               ^
+22:18:54 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:19:22 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:19:45 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+22:20:43 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+22:24:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:36:8: error: 'time' was not declared in this scope
+  srand(time(NULL));
+        ^~~~
+..\src\Board.cpp:36:8: note: suggested alternative: 'tm'
+  srand(time(NULL));
+        ^~~~
+        tm
+22:26:28 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+22:27:56 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+22:29:18 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+Info: Nothing to build for Homework6
+22:30:25 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+22:31:19 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:00:30 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:78:10: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+    scanf("%d", row);
+          ^~~~  ~~~
+..\src\Board.cpp:80:10: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'int' [-Wformat=]
+    scanf("%d", row);
+          ^~~~  ~~~
+..\src\Board.cpp:82:4: error: 'string' was not declared in this scope
+    string str;
+    ^~~~~~
+..\src\Board.cpp:82:4: note: suggested alternative:
+In file included from c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\string:39,
+                 from ..\src\Ship.h:13,
+                 from ..\src\Board.h:10,
+                 from ..\src\Board.cpp:8:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\bits\stringfwd.h:74:33: note:   'std::__cxx11::string'
+   typedef basic_string<char>    string;
+                                 ^~~~~~
+..\src\Board.cpp:83:16: error: 'str' was not declared in this scope
+    scanf("%s", str);
+                ^~~
+..\src\Board.cpp:83:16: note: suggested alternative: 'std'
+    scanf("%s", str);
+                ^~~
+                std
+23:02:55 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In constructor 'Board::Board(bool)':
+..\src\Board.cpp:84:54: error: expected ')' before numeric constant
+    ships[numSet]->setDirection((c == 'h' || c == 'H') HORIZONTAL:VERTICAL);
+                               ~                      ^
+                                                      )
+23:03:12 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:05:08 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:06:25 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:07:05 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:09:47 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:10:16 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:11:00 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:11:25 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:11:38 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:12:08 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:12:52 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:14:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:15:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:15:37 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:16:40 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+23:19:34 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:02:27 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\AircraftCarrier.o" "..\\src\\AircraftCarrier.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+In file included from ..\src\production.h:13,
+                 from ..\src\Homework6.cpp:11:
+..\src\Game.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import "Board.h"
+  ^~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+In file included from ..\src\production.h:13,
+                 from ..\src\production.cpp:8:
+..\src\Game.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import "Board.h"
+  ^~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+..\src\Board.cpp: In member function 'bool Board::hasLost()':
+..\src\Board.cpp:118:17: error: conversion from 'Ship*' to non-scalar type 'Ship' requested
+  for(Ship ship: ships)
+                 ^~~~~
+00:02:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+In file included from ..\src\Game.cpp:8:
+..\src\Game.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import "Board.h"
+  ^~~~~~
+..\src\Game.cpp: In member function 'bool Game::guess()':
+..\src\Game.cpp:30:35: warning: 'col' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   isValid = computerBoard->isValid(row, col);
+             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\src\Game.cpp: In member function 'void Game::play()':
+..\src\Game.cpp:53:2: warning: 'playing' is used uninitialized in this function [-Wuninitialized]
+  while(playing){
+  ^~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Battleship.o" "..\\src\\Battleship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Submarine.o" "..\\src\\Submarine.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Cruiser.o" "..\\src\\Cruiser.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Destroyer.o" "..\\src\\Destroyer.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+00:03:27 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tests.o" "..\\src\\tests.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:03:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+In file included from ..\src\Game.cpp:8:
+..\src\Game.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import "Board.h"
+  ^~~~~~
+..\src\Game.cpp: In member function 'bool Game::guess()':
+..\src\Game.cpp:30:35: warning: 'col' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   isValid = computerBoard->isValid(row, col);
+             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:04:38 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+In file included from ..\src\Game.cpp:8:
+..\src\Game.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import "Board.h"
+  ^~~~~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:05:15 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Homework6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:06:06 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:36:17 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+..\src\Game.cpp: In member function 'void Game::play()':
+..\src\Game.cpp:57:39: error: void value not ignored as it ought to be
+   playing &= computerBoard->printBoard(false);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+..\src\Game.cpp:59:37: error: void value not ignored as it ought to be
+   playing &= playerBoard->printBoard(true);
+              ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+00:36:46 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:37:26 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:38:54 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:39:58 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:42:15 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:50:04 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:50:53 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:51:14 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:52:07 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:53:59 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:54:45 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:55:23 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:56:23 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:56:52 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+00:59:40 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Homework6.o" "..\\src\\Homework6.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+..\src\Game.cpp: In member function 'void Game::play(int)':
+..\src\Game.cpp:71:36: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while(player & computer & turns-- > 0){
+                            ~~~~~~~~^~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:00:05 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+..\src\Game.cpp: In member function 'void Game::play(int)':
+..\src\Game.cpp:71:36: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while(player & computer & turns-- > 0){
+                            ~~~~~~~~^~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:00:58 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:02:47 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ship.o" "..\\src\\Ship.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:03:05 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+..\src\Game.cpp: In member function 'void Game::play(int)':
+..\src\Game.cpp:71:36: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while(player & computer & turns-- > 0){
+                            ~~~~~~~~^~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:03:47 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+..\src\Game.cpp: In member function 'void Game::play(int)':
+..\src\Game.cpp:71:36: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  while(player & computer & turns-- > 0){
+                            ~~~~~~~~^~~
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+Info: Nothing to build for Homework6
+01:08:38 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:15:57 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\production.o" "..\\src\\production.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:18:29 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:19:51 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:24:46 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:25:11 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:26:02 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:28:20 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 
+01:29:21 **** Incremental Build of configuration Debug for project Homework6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Game.o" "..\\src\\Game.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Board.o" "..\\src\\Board.cpp" 
+g++ -o Homework6.exe "src\\AircraftCarrier.o" "src\\Battleship.o" "src\\Board.o" "src\\Cruiser.o" "src\\Destroyer.o" "src\\Game.o" "src\\Homework6.o" "src\\Ship.o" "src\\Submarine.o" "src\\production.o" "src\\tests.o" 

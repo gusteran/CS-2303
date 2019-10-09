@@ -10,6 +10,11 @@
 #include "Ship.h"
 
 class AircraftCarrier: public Ship {
+
+public:
+	AircraftCarrier(int row, int col, int direction);
+	int getLength();
+	char toChar(int row, int col);
 };
 
 #endif /* AIRCRAFTCARRIER_H_ */

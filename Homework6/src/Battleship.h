@@ -10,6 +10,10 @@
 #include "Ship.h"
 
 class Battleship: public Ship {
+public:
+	Battleship(int row, int col, int direction);
+	int getLength();
+	char toChar(int row, int col);
 };
 
 #endif /* BATTLESHIP_H_ */
