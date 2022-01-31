@@ -16,13 +16,11 @@
 
 int main(int argc, char* argv[]) {
 	puts("!!!Let's do Game of Life!!!"); /* prints !!!Hello World!!! */
-	if(tests())
-	{
+	if(tests()) {
 		production(argc, argv);
 	}
-	else
-	{
-		 puts("Tests did not pass.");
+	else {
+		puts("Tests did not pass.");
 	}
 	return EXIT_SUCCESS;
 }
